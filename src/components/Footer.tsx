@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="AMG Advogados" className="h-8 w-auto" />
+            <img alt="AMG Advogados" className="h-8 w-auto" src="/lovable-uploads/35e62d4d-4c80-4b87-9f70-d6d9148c8a12.jpg" />
             <span className="font-serif text-sm text-muted-foreground">
               AMG Advogados
             </span>
@@ -29,8 +29,8 @@ const Footer = () => {
           </nav>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
