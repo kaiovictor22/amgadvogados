@@ -27,7 +27,7 @@ const Hero = () => {
 
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light leading-tight text-foreground mb-6">
             Advocacia de{" "}
-            <span className="text-gradient-gold font-medium text-primary bg-primary-foreground">Excelência</span>{" "}
+            <span className="text-gradient-gold font-medium bg-[#e0aeae] text-sidebar-ring">Excelência</span>{" "}
             em Direito Previdenciário e Civil
           </h1>
 
