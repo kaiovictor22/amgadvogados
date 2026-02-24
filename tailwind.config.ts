@@ -48,8 +48,9 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         gold: "hsl(var(--gold))",
-        navy: "hsl(var(--navy))",
-        "navy-light": "hsl(var(--navy-light))",
+        "gold-light": "hsl(var(--gold-light))",
+        warm: "hsl(var(--warm))",
+        "warm-light": "hsl(var(--warm-light))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,8 +63,8 @@ export default {
         },
       },
       fontFamily: {
-        serif: ["Cormorant Garamond", "serif"],
-        sans: ["Inter", "sans-serif"],
+        serif: ["Playfair Display", "serif"],
+        sans: ["Raleway", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -83,11 +84,16 @@ export default {
           from: { opacity: "0", transform: "translateY(30px)" },
           to: { opacity: "1", transform: "translateY(0)" },
         },
+        "slide-up": {
+          from: { opacity: "0", transform: "translateY(60px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in-up": "fade-in-up 0.8s ease-out forwards",
+        "slide-up": "slide-up 1s ease-out forwards",
       },
     },
   },
