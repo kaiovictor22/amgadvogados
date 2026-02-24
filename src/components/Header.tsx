@@ -32,7 +32,7 @@ const Header = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#inicio" className="flex items-center gap-3">
           <img
-            alt="AMG Advogados"
+            alt="AMG Advogados”
             className="h-11 w-auto rounded-sm"
             src={logo}
           />
