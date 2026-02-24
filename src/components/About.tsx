@@ -18,7 +18,7 @@ const About = () => {
               <img
                 src={teamHands}
                 alt="Parceria e compromisso — AMG Advogados"
-                className="w-full h-[400px] object-cover object-center"
+                className="w-full h-[400px] object-cover object-center scale-110"
               />
             </div>
           </motion.div>
