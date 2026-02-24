@@ -1,3 +1,4 @@
+import { Instagram, MessageCircle } from "lucide-react";
 import logo from "@/assets/logo-amg.jpeg";
 
 const Footer = () => {
@@ -17,17 +18,39 @@ const Footer = () => {
             © {new Date().getFullYear()} AMG Advogados — Todos os direitos reservados.
           </p>
 
-          <nav className="flex gap-6">
-            {["Início", "Sobre", "Áreas", "Contato"].map((label) => (
+          <div className="flex items-center gap-5">
+            <nav className="flex gap-6">
+              {["Início", "Sobre", "Áreas", "Contato"].map((label) => (
+                <a
+                  key={label}
+                  href={`#${label === "Início" ? "inicio" : label === "Sobre" ? "sobre" : label === "Áreas" ? "areas" : "contato"}`}
+                  className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {label}
+                </a>
+              ))}
+            </nav>
+            <div className="flex gap-3">
               <a
-                key={label}
-                href={`#${label === "Início" ? "inicio" : label === "Sobre" ? "sobre" : label === "Áreas" ? "areas" : "contato"}`}
-                className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                href="https://wa.me/5567965946456"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-accent transition-colors"
+                aria-label="WhatsApp"
               >
-                {label}
+                <MessageCircle className="w-4 h-4" />
               </a>
-            ))}
-          </nav>
+              <a
+                href="https://tr.ee/FsjNYMVz4i"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-accent transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-4 h-4" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

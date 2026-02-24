@@ -38,8 +38,10 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#contato"
-                className="inline-flex justify-center items-center px-8 py-4 text-[11px] font-sans font-semibold tracking-[0.2em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-300"
+                href="https://wa.me/5567965946456"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex justify-center items-center gap-2 px-8 py-4 text-[11px] font-sans font-semibold tracking-[0.2em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-300"
               >
                 Agende uma Consulta
               </a>
