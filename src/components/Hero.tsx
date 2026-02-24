@@ -65,7 +65,7 @@ const Hero = () => {
               <img
                 src={teamPhoto}
                 alt="Equipe AMG Advogados — Arashiro, Morel & Gadêlha"
-                className="w-full h-[500px] lg:h-[600px] object-cover object-center"
+                className="w-full h-[500px] lg:h-[600px] object-cover object-center scale-110"
                 loading="eager"
               />
             </div>
