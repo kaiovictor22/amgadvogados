@@ -1,39 +1,42 @@
 import { motion } from "framer-motion";
-import { Shield, FileText, Heart, AlertCircle, Home, Scale, Briefcase, FileCheck, BookOpen, Users } from "lucide-react";
+import { Scale, ShieldCheck, Briefcase, Users, Building2, Gavel } from "lucide-react";
 
-const previdenciario = [
-  { icon: Shield, title: "Aposentadorias", desc: "Aposentadoria por idade, tempo de contribuição, especial e por invalidez. Analisamos seu histórico e identificamos a melhor estratégia." },
-  { icon: FileText, title: "Benefícios do INSS", desc: "Orientação completa sobre todos os benefícios previdenciários disponíveis, com análise individualizada do seu caso." },
-  { icon: AlertCircle, title: "Revisão de Benefícios", desc: "Revisão de aposentadorias e benefícios concedidos com valores abaixo do correto. Recupere o que é seu por direito." },
-  { icon: Heart, title: "Auxílio-Doença", desc: "Assistência para obtenção e manutenção do auxílio-doença quando você está incapacitado para o trabalho." },
-  { icon: Home, title: "Pensão por Morte", desc: "Garantia do benefício para dependentes do segurado falecido, com agilidade e sensibilidade." },
-  { icon: Users, title: "BPC/LOAS", desc: "Benefício assistencial para idosos e pessoas com deficiência em situação de vulnerabilidade social." },
+const areas = [
+  {
+    icon: Scale,
+    title: "Contencioso Cível e Responsabilidade Civil",
+    desc: "Ações indenizatórias, conflitos contratuais, cobranças, defesas judiciais e litígios estratégicos.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Direito do Consumidor",
+    desc: "Demandas contra bancos, revisão contratual, cobranças indevidas, negativação indevida, práticas abusivas e superendividamento.",
+  },
+  {
+    icon: Gavel,
+    title: "Direito Trabalhista",
+    desc: "Reclamações trabalhistas, acordos, verbas rescisórias, reconhecimento de vínculo, assédio moral e indenizações.",
+  },
+  {
+    icon: Users,
+    title: "Atuação para Sindicatos e Entidades",
+    desc: "Assessoria jurídica contínua, ações coletivas, pareceres, negociações e defesa judicial.",
+  },
+  {
+    icon: Building2,
+    title: "Assessoria Jurídica Mensal para Empresas",
+    desc: "Suporte jurídico preventivo, estratégico e contínuo, auxiliando na tomada de decisões e redução de riscos.",
+  },
+  {
+    icon: Briefcase,
+    title: "Direito Previdenciário",
+    desc: "Aposentadorias, benefícios do INSS, revisão de benefícios, auxílio-doença, pensão por morte e BPC/LOAS.",
+  },
 ];
-
-const civil = [
-  { icon: Briefcase, title: "Consultoria Jurídica", desc: "Assessoria preventiva e consultiva para pessoas físicas, orientando sobre direitos e obrigações legais." },
-  { icon: FileCheck, title: "Contratos", desc: "Elaboração, revisão e análise de contratos civis, assegurando segurança jurídica nas suas relações." },
-  { icon: BookOpen, title: "Obrigações", desc: "Atuação em questões envolvendo obrigações civis, cobranças indevidas e direitos do consumidor." },
-  { icon: Scale, title: "Responsabilidade Civil", desc: "Defesa e reparação de danos materiais e morais, buscando a justa compensação pelos prejuízos sofridos." },
-];
-
-const AreaCard = ({ icon: Icon, title, desc, index }: { icon: any; title: string; desc: string; index: number }) => (
-  <motion.div
-    initial={{ opacity: 0, y: 20 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true }}
-    transition={{ duration: 0.5, delay: index * 0.1 }}
-    className="glass-card p-6 group hover:border-gold/30 transition-all duration-500"
-  >
-    <Icon className="w-6 h-6 text-gold mb-4 group-hover:scale-110 transition-transform duration-300" />
-    <h4 className="font-serif text-xl text-foreground mb-2">{title}</h4>
-    <p className="font-sans text-sm text-muted-foreground leading-relaxed">{desc}</p>
-  </motion.div>
-);
 
 const PracticeAreas = () => {
   return (
-    <section id="areas" className="py-24 md:py-32">
+    <section id="areas" className="py-24 md:py-32 bg-secondary">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -42,47 +45,34 @@ const PracticeAreas = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <span className="text-xs font-sans tracking-[0.3em] uppercase text-gold mb-4 block">
+          <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
             Áreas de Atuação
           </span>
-          <h2 className="font-serif text-3xl md:text-5xl font-light text-foreground mb-4">
-            Especialidades Jurídicas
+          <h2 className="font-serif text-3xl md:text-4xl font-medium text-foreground mb-4">
+            Expertise <span className="text-gradient-gold">jurídica</span> completa
           </h2>
-          <div className="divider-gold w-16 mx-auto" />
+          <div className="divider-gold w-16 mx-auto mb-6" />
+          <p className="font-sans text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            A atuação do escritório vai além da especialização previdenciária, oferecendo suporte 
+            jurídico completo, com atenção individualizada e estratégia sólida.
+          </p>
         </motion.div>
 
-        {/* Previdenciário */}
-        <div className="mb-16">
-          <motion.h3
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="font-serif text-2xl text-foreground mb-8 text-center md:text-left"
-          >
-            Direito Previdenciário
-          </motion.h3>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {previdenciario.map((item, i) => (
-              <AreaCard key={item.title} {...item} index={i} />
-            ))}
-          </div>
-        </div>
-
-        {/* Civil */}
-        <div>
-          <motion.h3
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="font-serif text-2xl text-foreground mb-8 text-center md:text-left"
-          >
-            Direito Civil
-          </motion.h3>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-5">
-            {civil.map((item, i) => (
-              <AreaCard key={item.title} {...item} index={i} />
-            ))}
-          </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
+          {areas.map((area, i) => (
+            <motion.div
+              key={area.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.08 }}
+              className="glass-card p-7 group hover:border-accent/20 transition-all duration-500"
+            >
+              <area.icon className="w-7 h-7 text-accent mb-5 group-hover:scale-110 transition-transform duration-300" />
+              <h4 className="font-serif text-lg text-foreground mb-3 leading-snug">{area.title}</h4>
+              <p className="font-sans text-sm text-muted-foreground leading-relaxed">{area.desc}</p>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>
