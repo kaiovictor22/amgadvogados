@@ -61,18 +61,14 @@ const Hero = () => {
             transition={{ duration: 1.2, ease: "easeOut", delay: 0.3 }}
             className="relative"
           >
-            <div className="relative overflow-hidden warm-glow">
+            <div className="relative overflow-hidden rounded-sm">
               <img
                 src={teamPhoto}
                 alt="Equipe AMG Advogados — Arashiro, Morel & Gadêlha"
-                className="w-full h-[500px] lg:h-[600px] object-cover object-top img-premium"
+                className="w-full h-[500px] lg:h-[600px] object-cover object-center"
                 loading="eager"
               />
-              {/* Gradient overlay bottom */}
-              <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
             </div>
-            {/* Decorative corner */}
-            <div className="absolute -bottom-4 -left-4 w-24 h-24 border-l-2 border-b-2 border-accent/30" />
           </motion.div>
         </div>
       </div>

@@ -48,7 +48,7 @@ const OfficeGallery = () => {
               <img
                 src={img.src}
                 alt={img.alt}
-                className="w-full h-full object-cover img-premium group-hover:scale-105 transition-transform duration-700 min-h-[200px]"
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 min-h-[200px]"
                 loading="lazy"
               />
             </motion.div>

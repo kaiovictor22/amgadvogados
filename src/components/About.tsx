@@ -14,16 +14,13 @@ const About = () => {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="overflow-hidden">
+            <div className="overflow-hidden rounded-sm">
               <img
                 src={teamHands}
                 alt="Parceria e compromisso — AMG Advogados"
-                className="w-full h-[400px] object-cover img-premium"
+                className="w-full h-[400px] object-cover object-center"
               />
             </div>
-            {/* Decorative accent */}
-            <div className="absolute -top-4 -right-4 w-20 h-20 border-t-2 border-r-2 border-accent/30" />
-            <div className="absolute -bottom-4 -left-4 w-20 h-20 border-b-2 border-l-2 border-accent/30" />
           </motion.div>
 
           {/* Text */}
