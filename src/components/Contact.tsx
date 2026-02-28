@@ -98,7 +98,7 @@ const Contact = () => {
               className="lg:col-span-2 rounded-lg overflow-hidden shadow-lg border border-border"
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.5!2d-54.6295!3d-20.4615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e6a15a7d3c1f%3A0x4c8b7a9e5f2d1e3a!2sAMG+Advogados+-+Arashiro%2C+Morel+%26+Gad%C3%AAlha+Advogados!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.5!2d-54.6187749!3d-20.4412969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e911010f9c51%3A0x2f43fd0f3e37667e!2sAMG+Advogados+-+Arashiro%2C+Morel+%26+Gad%C3%AAlha+Advogados!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
                 width="100%"
                 height="350"
                 style={{ border: 0 }}
@@ -143,7 +143,7 @@ const Contact = () => {
               </div>
 
               <a
-                href="https://www.google.com/maps/place/AMG+Advogados+-+Arashiro,+Morel+%26+Gad%C3%AAlha+Advogados/@-20.4615,-54.6295,17z/"
+                href="https://www.google.com/maps/place/AMG+Advogados+-+Arashiro,+Morel+%26+Gad%C3%AAlha+Advogados/@-20.4412969,-54.6187749,17z/data=!3m1!4b1!4m6!3m5!1s0x9486e911010f9c51:0x2f43fd0f3e37667e!8m2!3d-20.4412969!4d-54.6162!16s%2Fg%2F11n8qc31n4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center justify-center gap-2 px-6 py-3 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground rounded transition-all duration-300"
