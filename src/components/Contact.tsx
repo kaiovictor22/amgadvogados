@@ -27,7 +27,7 @@ const Contact = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto mb-12">
           <motion.a
-            href="https://wa.me/67965946456"
+            href="https://tr.ee/1iQg5G43oE"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
@@ -164,7 +164,7 @@ const Contact = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="https://wa.me/67965946456"
+            href="https://tr.ee/1iQg5G43oE"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-10 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
