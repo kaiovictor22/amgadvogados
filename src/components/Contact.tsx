@@ -10,8 +10,8 @@ const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
-        >
+          className="text-center mb-16">
+
           <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
             Contato
           </span>
@@ -34,11 +34,11 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-card p-6 text-center group hover:shadow-lg border border-border rounded-lg transition-all duration-500"
-          >
+            className="bg-card p-6 text-center group hover:shadow-lg border border-border rounded-lg transition-all duration-500">
+
             <Phone className="w-6 h-6 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
             <p className="font-serif text-base text-foreground mb-1">Telefone / WhatsApp</p>
-            <p className="font-sans text-sm text-muted-foreground">(67) 9659-6456</p>
+            <p className="font-sans text-sm text-muted-foreground">(67) 99659-6456</p>
           </motion.a>
 
           <motion.a
@@ -47,11 +47,11 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="bg-card p-6 text-center group hover:shadow-lg border border-border rounded-lg transition-all duration-500"
-          >
+            className="bg-card p-6 text-center group hover:shadow-lg border border-border rounded-lg transition-all duration-500">
+
             <Mail className="w-6 h-6 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
             <p className="font-serif text-base text-foreground mb-1">E-mail</p>
-            <p className="font-sans text-sm text-muted-foreground">juridico@escritorioamg.adv.br</p>
+            <p className="font-sans text-sm text-muted-foreground">@escritorioamg.adv.br</p>
           </motion.a>
 
           <motion.div
@@ -59,8 +59,8 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-card p-6 text-center border border-border rounded-lg"
-          >
+            className="bg-card p-6 text-center border border-border rounded-lg">
+
             <MapPin className="w-6 h-6 text-accent mx-auto mb-4" />
             <p className="font-serif text-base text-foreground mb-1">Endereço</p>
             <p className="font-sans text-sm text-muted-foreground leading-relaxed">
@@ -75,8 +75,8 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="bg-card p-6 text-center border border-border rounded-lg"
-          >
+            className="bg-card p-6 text-center border border-border rounded-lg">
+
             <Clock className="w-6 h-6 text-accent mx-auto mb-4" />
             <p className="font-serif text-base text-foreground mb-1">Horário</p>
             <p className="font-sans text-sm text-muted-foreground leading-relaxed">
@@ -95,8 +95,8 @@ const Contact = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="lg:col-span-2 rounded-lg overflow-hidden shadow-lg border border-border"
-            >
+              className="lg:col-span-2 rounded-lg overflow-hidden shadow-lg border border-border">
+
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.5!2d-54.6187749!3d-20.4412969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e911010f9c51%3A0x2f43fd0f3e37667e!2sAMG+Advogados+-+Arashiro%2C+Morel+%26+Gad%C3%AAlha+Advogados!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
                 width="100%"
@@ -105,8 +105,8 @@ const Contact = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localização AMG Advogados"
-              />
+                title="Localização AMG Advogados" />
+
             </motion.div>
 
             {/* Reviews */}
@@ -115,13 +115,13 @@ const Contact = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-card rounded-lg border border-border p-6 flex flex-col"
-            >
+              className="bg-card rounded-lg border border-border p-6 flex flex-col">
+
               <div className="text-center mb-6">
                 <div className="flex items-center justify-center gap-1 mb-2">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-accent text-accent" />
-                  ))}
+                  {[...Array(5)].map((_, i) =>
+                  <Star key={i} className="w-5 h-5 fill-accent text-accent" />
+                  )}
                 </div>
                 <p className="font-serif text-4xl font-bold text-primary">5.0</p>
                 <p className="font-sans text-sm text-muted-foreground mt-1">Avaliações no Google</p>
@@ -146,8 +146,8 @@ const Contact = () => {
                 href="https://www.google.com/maps/place/AMG+Advogados+-+Arashiro,+Morel+%26+Gad%C3%AAlha+Advogados/@-20.4412969,-54.6187749,17z/data=!3m1!4b1!4m6!3m5!1s0x9486e911010f9c51:0x2f43fd0f3e37667e!8m2!3d-20.4412969!4d-54.6162!16s%2Fg%2F11n8qc31n4"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 inline-flex items-center justify-center gap-2 px-6 py-3 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground rounded transition-all duration-300"
-              >
+                className="mt-6 inline-flex items-center justify-center gap-2 px-6 py-3 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground rounded transition-all duration-300">
+
                 <ExternalLink className="w-3.5 h-3.5" />
                 Ver no Google Maps
               </a>
@@ -161,14 +161,14 @@ const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
-        >
+          className="flex flex-col sm:flex-row items-center justify-center gap-4">
+
           <a
             href="https://tr.ee/1iQg5G43oE"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-10 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
-          >
+            className="inline-flex items-center gap-3 px-10 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300">
+
             <MessageCircle className="w-4 h-4" />
             Fale com um Especialista
           </a>
@@ -176,15 +176,15 @@ const Contact = () => {
             href="https://tr.ee/FsjNYMVz4i"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-10 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground rounded transition-all duration-300"
-          >
+            className="inline-flex items-center gap-3 px-10 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground rounded transition-all duration-300">
+
             <Instagram className="w-4 h-4" />
             Siga no Instagram
           </a>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Contact;
