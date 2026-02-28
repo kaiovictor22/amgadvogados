@@ -6,7 +6,6 @@ const areas = [
     icon: Briefcase,
     title: "Direito Previdenciário",
     desc: "BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios e benefícios previdenciários em geral.",
-    highlight: true,
     details: ["BPC/LOAS", "Aposentadorias", "Auxílio-doença", "Pensão por morte", "Revisão de benefícios"],
   },
   {
@@ -68,30 +67,20 @@ const PracticeAreas = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
-              className={`p-7 rounded-lg group transition-all duration-500 ${
-                area.highlight
-                  ? "bg-accent text-accent-foreground col-span-1 sm:col-span-2 lg:col-span-1 ring-2 ring-accent/30"
-                  : "bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10"
-              }`}
+              className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10"
             >
-              <area.icon className={`w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 ${
-                area.highlight ? "text-accent-foreground" : "text-accent"
-              }`} />
-              <h4 className={`font-serif text-xl font-semibold mb-3 leading-snug ${
-                area.highlight ? "text-accent-foreground" : "text-primary-foreground"
-              }`}>
+              <area.icon className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
+              <h4 className="font-serif text-xl font-semibold mb-3 leading-snug text-primary-foreground">
                 {area.title}
               </h4>
-              <p className={`font-sans text-sm leading-relaxed mb-4 ${
-                area.highlight ? "text-accent-foreground/85" : "text-primary-foreground/60"
-              }`}>
+              <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60">
                 {area.desc}
               </p>
               {area.details && (
                 <ul className="space-y-1.5">
                   {area.details.map((detail) => (
-                    <li key={detail} className="font-sans text-xs flex items-center gap-2 text-accent-foreground/90">
-                      <ArrowRight className="w-3 h-3" />
+                    <li key={detail} className="font-sans text-xs flex items-center gap-2 text-primary-foreground/70">
+                      <ArrowRight className="w-3 h-3 text-accent" />
                       {detail}
                     </li>
                   ))}
