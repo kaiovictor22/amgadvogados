@@ -4,19 +4,19 @@ import { Linkedin, Mail } from "lucide-react";
 const team = [
   {
     name: "Dr. Arashiro",
-    role: "Sócio Fundador",
+    role: "Advogado",
     specialty: "Direito Previdenciário e Cível",
     description: "Especialista em direito previdenciário com vasta experiência em benefícios do INSS, aposentadorias e BPC/LOAS.",
   },
   {
     name: "Dr. Morel",
-    role: "Sócio Fundador",
+    role: "Advogado",
     specialty: "Direito Trabalhista e Consumerista",
     description: "Atuação estratégica em demandas trabalhistas e consumeristas, com foco na defesa dos direitos do cidadão.",
   },
   {
     name: "Dra. Gadêlha",
-    role: "Sócia Fundadora",
+    role: "Advogada",
     specialty: "Direito Cível e Assessoria Empresarial",
     description: "Experiência em assessoria jurídica empresarial, contencioso cível e consultoria preventiva.",
   },
