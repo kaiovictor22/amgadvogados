@@ -10,10 +10,10 @@ const Hero = () => {
         <img
           src={teamPhoto}
           alt="Equipe AMG Advogados"
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-cover object-[center_20%]"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/97 via-primary/90 to-primary/70" />
       </div>
 
       <div className="relative z-10 container mx-auto px-6">
@@ -42,7 +42,7 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/5567965946456"
+                href="https://tr.ee/1iQg5G43oE"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex justify-center items-center gap-2 px-8 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"

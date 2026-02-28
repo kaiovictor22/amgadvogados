@@ -58,7 +58,7 @@ const Header = () => {
               className={`text-[13px] font-sans font-medium tracking-wide transition-colors duration-300 ${
                 scrolled
                   ? "text-foreground/70 hover:text-primary"
-                  : "text-primary-foreground/80 hover:text-primary-foreground"
+                  : "text-primary-foreground hover:text-accent"
               }`}
             >
               {item.label}
@@ -67,7 +67,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="https://wa.me/5567965946456"
+          href="https://tr.ee/1iQg5G43oE"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden lg:inline-flex items-center gap-2 px-6 py-2.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
@@ -105,7 +105,7 @@ const Header = () => {
                 </a>
               ))}
               <a
-                href="https://wa.me/5567965946456"
+                href="https://tr.ee/1iQg5G43oE"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}

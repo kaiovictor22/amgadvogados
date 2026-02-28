@@ -27,7 +27,7 @@ const Contact = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto mb-12">
           <motion.a
-            href="https://wa.me/5567965946456"
+            href="https://tr.ee/1iQg5G43oE"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
@@ -42,7 +42,7 @@ const Contact = () => {
           </motion.a>
 
           <motion.a
-            href="mailto:contato@amgadvogados.com.br"
+            href="mailto:juridico@escritorioamg.adv.br"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -51,7 +51,7 @@ const Contact = () => {
           >
             <Mail className="w-6 h-6 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
             <p className="font-serif text-base text-foreground mb-1">E-mail</p>
-            <p className="font-sans text-sm text-muted-foreground">contato@amgadvogados.com.br</p>
+            <p className="font-sans text-sm text-muted-foreground">juridico@escritorioamg.adv.br</p>
           </motion.a>
 
           <motion.div
@@ -98,7 +98,7 @@ const Contact = () => {
               className="lg:col-span-2 rounded-lg overflow-hidden shadow-lg border border-border"
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.857!2d-54.6295!3d-20.4615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e6726b4d4c3b%3A0x5e2a6e4f5c8b9a0d!2sR.+Pedro+Celestino%2C+3607+-+Centro%2C+Campo+Grande+-+MS%2C+79004-560!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.5!2d-54.6295!3d-20.4615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e6a15a7d3c1f%3A0x4c8b7a9e5f2d1e3a!2sAMG+Advogados+-+Arashiro%2C+Morel+%26+Gad%C3%AAlha+Advogados!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
                 width="100%"
                 height="350"
                 style={{ border: 0 }}
@@ -143,7 +143,7 @@ const Contact = () => {
               </div>
 
               <a
-                href="https://www.google.com/maps/place/AMG+Advogados"
+                href="https://www.google.com/maps/place/AMG+Advogados+-+Arashiro,+Morel+%26+Gad%C3%AAlha+Advogados/@-20.4615,-54.6295,17z/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center justify-center gap-2 px-6 py-3 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground rounded transition-all duration-300"
@@ -164,7 +164,7 @@ const Contact = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="https://wa.me/5567965946456"
+            href="https://tr.ee/1iQg5G43oE"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-10 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
