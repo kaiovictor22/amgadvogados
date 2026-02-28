@@ -34,7 +34,7 @@ const Rights = () => {
               Conheça informações essenciais de forma clara e acessível.
             </p>
             <a
-              href="https://tr.ee/1iQg5G43oE"
+              href="https://wa.me/5567965946456"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-3.5 text-[11px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
