@@ -10,7 +10,7 @@ const Hero = () => {
         <img
           src={teamPhoto}
           alt="Equipe AMG Advogados"
-          className="w-full h-full object-cover object-[center_8%] md:object-[center_12%]"
+          className="w-full h-full object-cover object-[center_2%] md:object-[center_6%] lg:object-[center_10%]"
           loading="eager"
         />
         <div className="absolute inset-0 bg-[hsl(215_55%_18%/0.45)]" />
