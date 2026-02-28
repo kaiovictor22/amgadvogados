@@ -70,7 +70,7 @@ const Footer = () => {
               Segunda a Sexta, 08h às 18h
             </p>
             <a
-              href="https://tr.ee/1iQg5G43oE"
+              href="https://wa.me/5567965946456"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all w-full justify-center"
@@ -80,7 +80,7 @@ const Footer = () => {
             </a>
             <div className="flex gap-3 mt-4">
               <a
-                href="https://tr.ee/1iQg5G43oE"
+                href="https://wa.me/5567965946456"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-foreground/50 hover:text-accent transition-colors"
