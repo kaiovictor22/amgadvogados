@@ -58,7 +58,7 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-2 text-sm font-sans text-primary-foreground/60">
                 <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
-                <span>R. Pedro Celestino, 3607 – Sala 903, Centro, Campo Grande – MS</span>
+                <span>R. Pedro Celestino, 3607 – Edifício Classic Office, Sala 903, Centro, Campo Grande – MS</span>
               </div>
             </div>
           </div>

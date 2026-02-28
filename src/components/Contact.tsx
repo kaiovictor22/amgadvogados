@@ -65,8 +65,8 @@ const Contact = () => {
             <p className="font-serif text-base text-foreground mb-1">Endereço</p>
             <p className="font-sans text-sm text-muted-foreground leading-relaxed">
               R. Pedro Celestino, 3607<br />
-              Sala 903 – Centro<br />
-              Campo Grande – MS
+              Edifício Classic Office – Sala 903<br />
+              Centro, Campo Grande – MS
             </p>
           </motion.div>
 
