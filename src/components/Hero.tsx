@@ -10,10 +10,10 @@ const Hero = () => {
         <img
           src={teamPhoto}
           alt="Equipe AMG Advogados"
-          className="w-full h-full object-cover object-[center_20%]"
+          className="w-full h-full object-cover object-[center_15%]"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/97 via-primary/90 to-primary/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/92 via-primary/80 to-primary/55" />
       </div>
 
       <div className="relative z-10 container mx-auto px-6">
