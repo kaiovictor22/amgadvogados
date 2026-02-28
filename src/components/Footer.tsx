@@ -52,9 +52,9 @@ const Footer = () => {
                 <Phone className="w-4 h-4 text-accent" />
                 (67) 9659-6456
               </a>
-              <a href="mailto:contato@amgadvogados.com.br" className="flex items-center gap-2 text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
+              <a href="mailto:juridico@escritorioamg.adv.br" className="flex items-center gap-2 text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
                 <Mail className="w-4 h-4 text-accent" />
-                contato@amgadvogados.com.br
+                juridico@escritorioamg.adv.br
               </a>
               <div className="flex items-start gap-2 text-sm font-sans text-primary-foreground/60">
                 <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
@@ -70,7 +70,7 @@ const Footer = () => {
               Segunda a Sexta, 08h às 18h
             </p>
             <a
-              href="https://wa.me/5567965946456"
+              href="https://tr.ee/1iQg5G43oE"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all w-full justify-center"
@@ -80,7 +80,7 @@ const Footer = () => {
             </a>
             <div className="flex gap-3 mt-4">
               <a
-                href="https://wa.me/5567965946456"
+                href="https://tr.ee/1iQg5G43oE"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-foreground/50 hover:text-accent transition-colors"
