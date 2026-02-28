@@ -3,7 +3,7 @@ import teamHands from "@/assets/team-hands.jpg";
 
 const About = () => {
   return (
-    <section id="sobre" className="py-24 md:py-32 bg-secondary">
+    <section id="sobre" className="py-24 md:py-32 bg-background">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image */}
@@ -14,13 +14,15 @@ const About = () => {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="overflow-hidden rounded-sm">
+            <div className="overflow-hidden rounded-lg shadow-xl">
               <img
                 src={teamHands}
                 alt="Parceria e compromisso — AMG Advogados"
-                className="w-full h-[400px] object-cover object-center scale-110"
+                className="w-full h-[400px] object-cover object-center"
               />
             </div>
+            {/* Decorative accent */}
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/10 rounded-lg -z-10" />
           </motion.div>
 
           {/* Text */}
@@ -31,13 +33,12 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
-              Quem Somos
+              O Escritório
             </span>
-            <h2 className="font-serif text-3xl md:text-4xl font-medium text-foreground mb-6 leading-tight">
-              Compromisso com{" "}
-              <span className="text-gradient-gold">seus direitos</span>
+            <h2 className="font-serif text-3xl md:text-4xl xl:text-5xl font-semibold text-primary mb-6 leading-tight">
+              Compromisso com seus direitos
             </h2>
-            <div className="divider-gold-left mb-8" />
+            <div className="divider-navy mb-8" />
 
             <p className="font-sans text-muted-foreground leading-relaxed mb-5">
               O <strong className="text-foreground font-medium">Arashiro, Morel & Gadêlha Advogados</strong> atua 
@@ -55,13 +56,13 @@ const About = () => {
 
             <div className="mt-10 flex gap-12">
               <div>
-                <p className="font-serif text-3xl text-accent font-medium">5+</p>
+                <p className="font-serif text-4xl text-primary font-bold">5+</p>
                 <p className="text-xs font-sans tracking-widest uppercase text-muted-foreground mt-1">
                   Áreas de Atuação
                 </p>
               </div>
               <div>
-                <p className="font-serif text-3xl text-accent font-medium">100%</p>
+                <p className="font-serif text-4xl text-primary font-bold">100%</p>
                 <p className="text-xs font-sans tracking-widest uppercase text-muted-foreground mt-1">
                   Dedicação
                 </p>

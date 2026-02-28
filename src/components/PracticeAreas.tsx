@@ -1,7 +1,14 @@
 import { motion } from "framer-motion";
-import { Scale, ShieldCheck, Briefcase, Users, Building2, Gavel } from "lucide-react";
+import { Scale, ShieldCheck, Briefcase, Users, Building2, Gavel, MessageCircle, ArrowRight } from "lucide-react";
 
 const areas = [
+  {
+    icon: Briefcase,
+    title: "Direito Previdenciário",
+    desc: "BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios e benefícios previdenciários em geral.",
+    highlight: true,
+    details: ["BPC/LOAS", "Aposentadorias", "Auxílio-doença", "Pensão por morte", "Revisão de benefícios"],
+  },
   {
     icon: Scale,
     title: "Contencioso Cível e Responsabilidade Civil",
@@ -24,19 +31,14 @@ const areas = [
   },
   {
     icon: Building2,
-    title: "Assessoria Jurídica Mensal para Empresas",
+    title: "Assessoria Jurídica para Empresas",
     desc: "Suporte jurídico preventivo, estratégico e contínuo, auxiliando na tomada de decisões e redução de riscos.",
-  },
-  {
-    icon: Briefcase,
-    title: "Direito Previdenciário",
-    desc: "Aposentadorias, benefícios do INSS, revisão de benefícios, auxílio-doença, pensão por morte e BPC/LOAS.",
   },
 ];
 
 const PracticeAreas = () => {
   return (
-    <section id="areas" className="py-24 md:py-32 bg-secondary">
+    <section id="areas" className="py-24 md:py-32 bg-primary">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -48,11 +50,11 @@ const PracticeAreas = () => {
           <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
             Áreas de Atuação
           </span>
-          <h2 className="font-serif text-3xl md:text-4xl font-medium text-foreground mb-4">
-            Expertise <span className="text-gradient-gold">jurídica</span> completa
+          <h2 className="font-serif text-3xl md:text-4xl xl:text-5xl font-semibold text-primary-foreground mb-4">
+            Expertise jurídica completa
           </h2>
-          <div className="divider-gold w-16 mx-auto mb-6" />
-          <p className="font-sans text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
+          <p className="font-sans text-primary-foreground/70 max-w-2xl mx-auto leading-relaxed">
             A atuação do escritório vai além da especialização previdenciária, oferecendo suporte 
             jurídico completo, com atenção individualizada e estratégia sólida.
           </p>
@@ -66,14 +68,57 @@ const PracticeAreas = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
-              className="glass-card p-7 group hover:border-accent/20 transition-all duration-500"
+              className={`p-7 rounded-lg group transition-all duration-500 ${
+                area.highlight
+                  ? "bg-accent text-accent-foreground col-span-1 sm:col-span-2 lg:col-span-1 ring-2 ring-accent/30"
+                  : "bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10"
+              }`}
             >
-              <area.icon className="w-7 h-7 text-accent mb-5 group-hover:scale-110 transition-transform duration-300" />
-              <h4 className="font-serif text-lg text-foreground mb-3 leading-snug">{area.title}</h4>
-              <p className="font-sans text-sm text-muted-foreground leading-relaxed">{area.desc}</p>
+              <area.icon className={`w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 ${
+                area.highlight ? "text-accent-foreground" : "text-accent"
+              }`} />
+              <h4 className={`font-serif text-xl font-semibold mb-3 leading-snug ${
+                area.highlight ? "text-accent-foreground" : "text-primary-foreground"
+              }`}>
+                {area.title}
+              </h4>
+              <p className={`font-sans text-sm leading-relaxed mb-4 ${
+                area.highlight ? "text-accent-foreground/85" : "text-primary-foreground/60"
+              }`}>
+                {area.desc}
+              </p>
+              {area.details && (
+                <ul className="space-y-1.5">
+                  {area.details.map((detail) => (
+                    <li key={detail} className="font-sans text-xs flex items-center gap-2 text-accent-foreground/90">
+                      <ArrowRight className="w-3 h-3" />
+                      {detail}
+                    </li>
+                  ))}
+                </ul>
+              )}
             </motion.div>
           ))}
         </div>
+
+        {/* CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="text-center mt-14"
+        >
+          <a
+            href="https://wa.me/5567965946456"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-10 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
+          >
+            <MessageCircle className="w-4 h-4" />
+            Fale com um Especialista
+          </a>
+        </motion.div>
       </div>
     </section>
   );

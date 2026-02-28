@@ -1,37 +1,41 @@
 import { motion } from "framer-motion";
+import { MessageCircle, ArrowRight } from "lucide-react";
 import teamPhoto from "@/assets/team-photo.jpg";
 
 const Hero = () => {
   return (
     <section id="inicio" className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-background" />
-      <div className="absolute inset-0 opacity-[0.03]" style={{
-        backgroundImage: 'radial-gradient(circle at 1px 1px, hsl(0 0% 40%) 1px, transparent 0)',
-        backgroundSize: '40px 40px'
-      }} />
+      {/* Background image with navy overlay */}
+      <div className="absolute inset-0">
+        <img
+          src={teamPhoto}
+          alt="Equipe AMG Advogados"
+          className="w-full h-full object-cover object-top"
+          loading="eager"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/60" />
+      </div>
 
       <div className="relative z-10 container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center min-h-screen py-32">
-          {/* Left — Text */}
+        <div className="max-w-2xl py-32 lg:py-40">
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            <div className="divider-gold-left mb-8" />
+            <div className="w-16 h-[3px] bg-accent mb-8" />
 
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl font-medium leading-[1.1] text-foreground mb-6">
+            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold leading-[1.1] text-primary-foreground mb-6">
               Arashiro, Morel
               <br />
-              <span className="text-gradient-gold">&amp; Gadêlha</span>
+              <span className="text-accent">& Gadêlha</span>
               <br />
-              <span className="text-3xl sm:text-4xl md:text-4xl font-light text-foreground/80">
+              <span className="text-3xl sm:text-4xl md:text-5xl font-light text-primary-foreground/80">
                 Advogados
               </span>
             </h1>
 
-            <p className="font-sans text-base text-muted-foreground max-w-lg mb-10 leading-relaxed">
+            <p className="font-sans text-base md:text-lg text-primary-foreground/70 max-w-lg mb-10 leading-relaxed">
               Atuação estratégica e humanizada em demandas previdenciárias, cíveis, trabalhistas e
               consultivas — protegendo seus direitos com ética, transparência e excelência.
             </p>
@@ -41,33 +45,18 @@ const Hero = () => {
                 href="https://wa.me/5567965946456"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex justify-center items-center gap-2 px-8 py-4 text-[11px] font-sans font-semibold tracking-[0.2em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-300"
+                className="inline-flex justify-center items-center gap-2 px-8 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
               >
-                Agende uma Consulta
+                <MessageCircle className="w-4 h-4" />
+                Fale com um Especialista
               </a>
               <a
                 href="#areas"
-                className="inline-flex justify-center items-center px-8 py-4 text-[11px] font-sans font-semibold tracking-[0.2em] uppercase border border-foreground/15 text-foreground/70 hover:text-foreground hover:border-foreground/30 transition-all duration-300"
+                className="inline-flex justify-center items-center gap-2 px-8 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase border border-primary-foreground/30 text-primary-foreground/90 hover:bg-primary-foreground/10 rounded transition-all duration-300"
               >
                 Áreas de Atuação
+                <ArrowRight className="w-4 h-4" />
               </a>
-            </div>
-          </motion.div>
-
-          {/* Right — Team Photo */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1.2, ease: "easeOut", delay: 0.3 }}
-            className="relative"
-          >
-            <div className="relative overflow-hidden rounded-sm">
-              <img
-                src={teamPhoto}
-                alt="Equipe AMG Advogados — Arashiro, Morel & Gadêlha"
-                className="w-full h-[500px] lg:h-[600px] object-cover object-top scale-110"
-                loading="eager"
-              />
             </div>
           </motion.div>
         </div>
