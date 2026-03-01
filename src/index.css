@@ -24,7 +24,7 @@
     --muted: 210 15% 90%;
     --muted-foreground: 215 15% 45%;
 
-    --accent: 38 60% 50%;
+    --accent: 30 33% 69%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -38,12 +38,12 @@
 
     --sidebar-background: 215 55% 18%;
     --sidebar-foreground: 0 0% 96%;
-    --sidebar-primary: 38 60% 50%;
+    --sidebar-primary: 30 33% 69%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 215 45% 28%;
     --sidebar-accent-foreground: 0 0% 96%;
     --sidebar-border: 215 40% 30%;
-    --sidebar-ring: 38 60% 50%;
+    --sidebar-ring: 30 33% 69%;
 
     --navy: 215 55% 22%;
     --navy-light: 215 40% 35%;
