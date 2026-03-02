@@ -25,10 +25,7 @@ const Hero = () => {
           >
             <div className="w-16 h-[3px] bg-accent mb-8" />
 
-            <h1
-              className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold tracking-[-0.015em] leading-[1.05] text-primary-foreground mb-6"
-              style={{ fontFamily: '"Playfair Display", serif' }}
-            >
+            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold tracking-[-0.015em] leading-[1.05] text-primary-foreground mb-6">
               Arashiro, Morel
               <br />
               <span className="text-accent">& Gadêlha</span>
