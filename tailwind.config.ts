@@ -72,8 +72,8 @@ export default {
         },
       },
       fontFamily: {
-        serif: ["Playfair Display", "serif"],
-        sans: ["Raleway", "sans-serif"],
+        serif: ["Cormorant Garamond", "serif"],
+        sans: ["DM Sans", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
