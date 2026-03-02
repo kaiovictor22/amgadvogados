@@ -7,18 +7,21 @@ const team = [
     role: "Advogado",
     specialty: "Direito Previdenciário e Cível",
     description: "Especialista em direito previdenciário com vasta experiência em benefícios do INSS, aposentadorias e BPC/LOAS.",
+    photo: "/lovable-uploads/arashiro.jpg",
   },
   {
     name: "Dr. Morel",
     role: "Advogado",
     specialty: "Direito Trabalhista e Consumerista",
     description: "Atuação estratégica em demandas trabalhistas e consumeristas, com foco na defesa dos direitos do cidadão.",
+    photo: "/lovable-uploads/morel.png",
   },
   {
     name: "Dra. Gadêlha",
     role: "Advogada",
     specialty: "Direito Cível e Assessoria Empresarial",
     description: "Experiência em assessoria jurídica empresarial, contencioso cível e consultoria preventiva.",
+    photo: "/lovable-uploads/gadelha.jpg",
   },
 ];
 
@@ -56,13 +59,12 @@ const Team = () => {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="bg-card rounded-lg border border-border overflow-hidden group hover:shadow-xl transition-all duration-500"
             >
-              {/* Placeholder avatar area */}
-              <div className="h-48 bg-primary/5 flex items-center justify-center">
-                <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center">
-                  <span className="font-serif text-3xl font-bold text-primary/40">
-                    {member.name.split(' ')[1]?.[0] || member.name[0]}
-                  </span>
-                </div>
+              <div className="h-48 bg-primary/5 flex items-center justify-center overflow-hidden">
+                <img
+                  src={member.photo}
+                  alt={member.name}
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
 
               <div className="p-6">
