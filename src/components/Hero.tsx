@@ -28,7 +28,7 @@ const Hero = () => {
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold tracking-[-0.015em] leading-[1.05] text-primary-foreground mb-6">
               Arashiro, Morel
               <br />
-              <span className="text-accent">& Gadêlha</span>
+              <span className="text-accent">& Gad<span className="font-sans font-medium">ê</span>lha</span>
               <br />
               <span className="block mt-1 text-[0.72em] leading-[1] font-medium text-primary-foreground">
                 Advogados
