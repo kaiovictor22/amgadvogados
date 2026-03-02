@@ -11,8 +11,8 @@ const Hero = () => {
           src={teamPhoto}
           alt="Equipe AMG Advogados"
           className="w-full h-full object-cover object-[center_0%] md:object-[center_5%]"
-          loading="eager"
-        />
+          loading="eager" />
+        
         <div className="absolute inset-0 bg-[hsl(215_55%_22%/0.50)]" />
       </div>
 
@@ -21,11 +21,11 @@ const Hero = () => {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, ease: "easeOut" }}
-          >
+            transition={{ duration: 1, ease: "easeOut" }}>
+            
             <div className="w-16 h-[3px] bg-accent mb-8" />
 
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold leading-[1.1] text-primary-foreground mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold leading-[1.1] text-primary-foreground mb-6 font-sans">
               Arashiro, Morel
               <br />
               <span className="text-accent">& Gadêlha</span>
@@ -45,15 +45,15 @@ const Hero = () => {
                 href="https://tr.ee/1iQg5G43oE"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex justify-center items-center gap-2 px-8 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
-              >
+                className="inline-flex justify-center items-center gap-2 px-8 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300">
+                
                 <MessageCircle className="w-4 h-4" />
                 Fale com um Especialista
               </a>
               <a
                 href="#areas"
-                className="inline-flex justify-center items-center gap-2 px-8 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase border border-primary-foreground/30 text-primary-foreground/90 hover:bg-primary-foreground/10 rounded transition-all duration-300"
-              >
+                className="inline-flex justify-center items-center gap-2 px-8 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase border border-primary-foreground/30 text-primary-foreground/90 hover:bg-primary-foreground/10 rounded transition-all duration-300">
+                
                 Áreas de Atuação
                 <ArrowRight className="w-4 h-4" />
               </a>
@@ -61,8 +61,8 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Hero;
