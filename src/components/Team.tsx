@@ -15,7 +15,7 @@ const team = [
     specialty: "Direito Trabalhista e Consumerista",
     description: "Atuação estratégica em demandas trabalhistas e consumeristas, com foco na defesa dos direitos do cidadão.",
     photo: "/lovable-uploads/morel.png",
-    photoPosition: "center 35%",
+    photoPosition: "center 30%",
   },
   {
     name: "Dra. Gadêlha",
