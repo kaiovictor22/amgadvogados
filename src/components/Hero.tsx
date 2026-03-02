@@ -25,7 +25,7 @@ const Hero = () => {
           >
             <div className="w-16 h-[3px] bg-accent mb-8" />
 
-            <h1 className="font-sans text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold leading-[1.1] text-primary-foreground mb-6">
+            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold leading-[1.1] text-primary-foreground mb-6">
               Arashiro, Morel
               <br />
               <span className="text-accent">& Gadêlha</span>
