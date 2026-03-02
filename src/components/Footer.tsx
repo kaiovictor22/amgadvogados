@@ -11,8 +11,8 @@ const Footer = () => {
             <div className="flex items-center gap-3 mb-4">
               <img alt="AMG Advogados" className="h-10 w-auto rounded" src={logo} />
               <div className="flex flex-col leading-tight">
-                <span className="font-serif text-sm text-primary-foreground font-semibold">Arashiro, Morel</span>
-                <span className="font-serif text-sm text-primary-foreground font-semibold">& Gadêlha</span>
+                <span className="font-sans text-sm text-primary-foreground font-light tracking-[0.15em] uppercase">Arashiro, Morel</span>
+                <span className="font-sans text-sm text-primary-foreground font-light tracking-[0.15em] uppercase">& Gadêlha</span>
                 <span className="text-[8px] font-sans tracking-[0.2em] uppercase text-primary-foreground/60">Advogados</span>
               </div>
             </div>
