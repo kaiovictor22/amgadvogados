@@ -60,7 +60,7 @@ const Team = () => {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="bg-card rounded-lg border border-border overflow-hidden group hover:shadow-xl transition-all duration-500"
             >
-              <div className="h-64 bg-primary/5 overflow-hidden">
+              <div className="h-80 bg-primary/5 overflow-hidden">
                 <img
                   src={member.photo}
                   alt={member.name}
