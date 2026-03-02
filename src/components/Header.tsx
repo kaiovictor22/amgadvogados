@@ -38,13 +38,13 @@ const Header = () => {
             src={logo}
           />
           <div className="hidden sm:flex flex-col leading-tight">
-            <span className={`font-serif text-lg font-semibold tracking-wide leading-tight ${scrolled ? 'text-primary' : 'text-primary-foreground'}`}>
+            <span className={`font-sans text-lg font-light tracking-[0.15em] uppercase leading-tight ${scrolled ? 'text-primary' : 'text-primary-foreground'}`}>
               Arashiro, Morel
             </span>
-            <span className={`font-serif text-lg font-semibold tracking-wide leading-tight ${scrolled ? 'text-primary' : 'text-primary-foreground'}`}>
+            <span className={`font-sans text-lg font-light tracking-[0.15em] uppercase leading-tight ${scrolled ? 'text-primary' : 'text-primary-foreground'}`}>
               & Gadêlha
             </span>
-            <span className={`text-[9px] font-sans tracking-[0.25em] uppercase ${scrolled ? 'text-muted-foreground' : 'text-primary-foreground/70'}`}>
+            <span className={`text-[9px] font-sans font-light tracking-[0.3em] uppercase ${scrolled ? 'text-muted-foreground' : 'text-primary-foreground/70'}`}>
               Advogados
             </span>
           </div>
