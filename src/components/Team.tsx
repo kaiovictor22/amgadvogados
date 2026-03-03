@@ -65,7 +65,7 @@ const Team = () => {
                 src={member.photo}
                 alt={member.name}
                 style={member.photoPosition ? { objectPosition: member.photoPosition } : undefined}
-                className="w-full h-full object-cover object-[center_25%] scale-110 group-hover:scale-115 transition-transform duration-500" />
+                className="w-full h-full object-[center_25%] scale-110 group-hover:scale-115 transition-transform duration-500 opacity-100 object-contain border-0 border-none rounded-xl" />
               
               </div>
 
