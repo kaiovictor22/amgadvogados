@@ -22,7 +22,7 @@ const team = [
   role: "Advogada",
   specialty: "Direito Cível e Assessoria Empresarial",
   description: "Experiência em assessoria jurídica empresarial, contencioso cível e consultoria preventiva.",
-  photo: "/lovable-uploads/gadelha.jpg"
+  photo: "/lovable-uploads/40eb97f9-a436-48fd-a6ba-d052b29baeda.jpg"
 }];
 
 
