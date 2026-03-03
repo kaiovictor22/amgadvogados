@@ -11,8 +11,8 @@ const Footer = () => {
             <div className="flex items-center gap-3 mb-4">
               <img alt="AMG Advogados" className="h-10 w-auto rounded" src={logo} />
               <div className="flex flex-col leading-tight">
-                <span className="font-serif text-sm text-primary-foreground font-semibold">Arashiro, Morel</span>
-                <span className="font-serif text-sm text-primary-foreground font-semibold">& Gadêlha</span>
+                <span className="text-sm text-primary-foreground font-semibold font-sans">Arashiro, Morel</span>
+                <span className="text-sm text-primary-foreground font-semibold font-sans">& Gadêlha</span>
                 <span className="text-[8px] font-sans tracking-[0.2em] uppercase text-primary-foreground/60">Advogados</span>
               </div>
             </div>
@@ -26,21 +26,21 @@ const Footer = () => {
             <h4 className="font-serif text-base font-semibold mb-4">Navegação</h4>
             <nav className="flex flex-col gap-2">
               {[
-                { label: "O Escritório", href: "#sobre" },
-                { label: "Previdenciário", href: "#direitos" },
-                { label: "Áreas de Atuação", href: "#areas" },
-                { label: "Nossa Equipe", href: "#equipe" },
-                { label: "Estrutura", href: "#estrutura" },
-                { label: "Contato", href: "#contato" },
-              ].map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors"
-                >
+              { label: "O Escritório", href: "#sobre" },
+              { label: "Previdenciário", href: "#direitos" },
+              { label: "Áreas de Atuação", href: "#areas" },
+              { label: "Nossa Equipe", href: "#equipe" },
+              { label: "Estrutura", href: "#estrutura" },
+              { label: "Contato", href: "#contato" }].
+              map((link) =>
+              <a
+                key={link.label}
+                href={link.href}
+                className="text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
+                
                   {link.label}
                 </a>
-              ))}
+              )}
             </nav>
           </div>
 
@@ -73,8 +73,8 @@ const Footer = () => {
               href="https://tr.ee/1iQg5G43oE"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all w-full justify-center"
-            >
+              className="inline-flex items-center gap-2 px-6 py-3 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all w-full justify-center">
+              
               <MessageCircle className="w-3.5 h-3.5" />
               Fale Conosco
             </a>
@@ -84,8 +84,8 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-foreground/50 hover:text-accent transition-colors"
-                aria-label="WhatsApp"
-              >
+                aria-label="WhatsApp">
+                
                 <MessageCircle className="w-5 h-5" />
               </a>
               <a
@@ -93,8 +93,8 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-foreground/50 hover:text-accent transition-colors"
-                aria-label="Instagram"
-              >
+                aria-label="Instagram">
+                
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
@@ -113,8 +113,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;

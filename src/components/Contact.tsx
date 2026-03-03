@@ -15,7 +15,7 @@ const Contact = () => {
           <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
             Contato
           </span>
-          <h2 className="font-serif text-3xl md:text-4xl xl:text-5xl font-semibold text-primary mb-4">
+          <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-4 font-sans xl:text-4xl">
             Fale com nossa equipe
           </h2>
           <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
@@ -47,11 +47,11 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="bg-card p-6 text-center group hover:shadow-lg border border-border rounded-lg transition-all duration-500">
+            className="bg-card p-6 text-center group hover:shadow-lg border border-border rounded-lg transition-all duration-500 py-[24px] px-[2px]">
 
             <Mail className="w-6 h-6 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
             <p className="font-serif text-base text-foreground mb-1">E-mail</p>
-            <p className="font-sans text-sm text-muted-foreground">@escritorioamg.adv.br</p>
+            <p className="text-muted-foreground font-sans font-semibold text-sm text-center">juridico@escritorioamg.adv.br</p>
           </motion.a>
 
           <motion.div

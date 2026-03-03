@@ -5,11 +5,11 @@ import officeDesk from "@/assets/office-desk.jpg";
 import officeBuilding from "@/assets/office-building.jpg";
 
 const images = [
-  { src: officeReception, alt: "Recepção AMG Advogados", span: "row-span-2" },
-  { src: officeMeeting, alt: "Sala de Reuniões", span: "" },
-  { src: officeDesk, alt: "Escritório", span: "" },
-  { src: officeBuilding, alt: "Edifício Comercial", span: "col-span-2" },
-];
+{ src: officeReception, alt: "Recepção AMG Advogados", span: "row-span-2" },
+{ src: officeMeeting, alt: "Sala de Reuniões", span: "" },
+{ src: officeDesk, alt: "Escritório", span: "" },
+{ src: officeBuilding, alt: "Edifício Comercial", span: "col-span-2" }];
+
 
 const OfficeGallery = () => {
   return (
@@ -20,12 +20,12 @@ const OfficeGallery = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
-        >
+          className="text-center mb-16">
+          
           <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
             Nossa Estrutura
           </span>
-          <h2 className="font-serif text-3xl md:text-4xl xl:text-5xl font-semibold text-primary mb-4">
+          <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-4 font-sans xl:text-4xl">
             Ambiente preparado para você
           </h2>
           <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
@@ -36,27 +36,27 @@ const OfficeGallery = () => {
         </motion.div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 max-w-5xl mx-auto">
-          {images.map((img, i) => (
-            <motion.div
-              key={img.alt}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: i * 0.1 }}
-              className={`overflow-hidden group rounded-lg ${img.span}`}
-            >
+          {images.map((img, i) =>
+          <motion.div
+            key={img.alt}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: i * 0.1 }}
+            className={`overflow-hidden group rounded-lg ${img.span}`}>
+            
               <img
-                src={img.src}
-                alt={img.alt}
-                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 min-h-[200px]"
-                loading="lazy"
-              />
+              src={img.src}
+              alt={img.alt}
+              className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 min-h-[200px]"
+              loading="lazy" />
+            
             </motion.div>
-          ))}
+          )}
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default OfficeGallery;

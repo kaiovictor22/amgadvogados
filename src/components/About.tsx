@@ -12,14 +12,14 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative"
-          >
+            className="relative">
+            
             <div className="overflow-hidden rounded-lg shadow-xl">
               <img
                 src={teamHands}
                 alt="Parceria e compromisso — AMG Advogados"
-                className="w-full h-[400px] object-cover object-center"
-              />
+                className="w-full h-[400px] object-cover object-center" />
+              
             </div>
             {/* Decorative accent */}
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/10 rounded-lg -z-10" />
@@ -30,12 +30,12 @@ const About = () => {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
+            transition={{ duration: 0.8, delay: 0.2 }}>
+            
             <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
               O Escritório
             </span>
-            <h2 className="font-serif text-3xl md:text-4xl xl:text-5xl font-semibold text-primary mb-6 leading-tight">
+            <h2 className="text-3xl md:text-4xl xl:text-5xl font-semibold text-primary mb-6 leading-tight font-sans">
               Compromisso com seus direitos
             </h2>
             <div className="divider-navy mb-8" />
@@ -71,8 +71,8 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default About;

@@ -2,38 +2,38 @@ import { motion } from "framer-motion";
 import { Scale, ShieldCheck, Briefcase, Users, Building2, Gavel, MessageCircle, ArrowRight } from "lucide-react";
 
 const areas = [
-  {
-    icon: Briefcase,
-    title: "Direito Previdenciário",
-    desc: "BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios e benefícios previdenciários em geral.",
-    details: ["BPC/LOAS", "Aposentadorias", "Auxílio-doença", "Pensão por morte", "Revisão de benefícios"],
-  },
-  {
-    icon: Scale,
-    title: "Contencioso Cível e Responsabilidade Civil",
-    desc: "Ações indenizatórias, conflitos contratuais, cobranças, defesas judiciais e litígios estratégicos.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Direito do Consumidor",
-    desc: "Demandas contra bancos, revisão contratual, cobranças indevidas, negativação indevida, práticas abusivas e superendividamento.",
-  },
-  {
-    icon: Gavel,
-    title: "Direito Trabalhista",
-    desc: "Reclamações trabalhistas, acordos, verbas rescisórias, reconhecimento de vínculo, assédio moral e indenizações.",
-  },
-  {
-    icon: Users,
-    title: "Atuação para Sindicatos e Entidades",
-    desc: "Assessoria jurídica contínua, ações coletivas, pareceres, negociações e defesa judicial.",
-  },
-  {
-    icon: Building2,
-    title: "Assessoria Jurídica para Empresas",
-    desc: "Suporte jurídico preventivo, estratégico e contínuo, auxiliando na tomada de decisões e redução de riscos.",
-  },
-];
+{
+  icon: Briefcase,
+  title: "Direito Previdenciário",
+  desc: "BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios e benefícios previdenciários em geral.",
+  details: ["BPC/LOAS", "Aposentadorias", "Auxílio-doença", "Pensão por morte", "Revisão de benefícios"]
+},
+{
+  icon: Scale,
+  title: "Contencioso Cível e Responsabilidade Civil",
+  desc: "Ações indenizatórias, conflitos contratuais, cobranças, defesas judiciais e litígios estratégicos."
+},
+{
+  icon: ShieldCheck,
+  title: "Direito do Consumidor",
+  desc: "Demandas contra bancos, revisão contratual, cobranças indevidas, negativação indevida, práticas abusivas e superendividamento."
+},
+{
+  icon: Gavel,
+  title: "Direito Trabalhista",
+  desc: "Reclamações trabalhistas, acordos, verbas rescisórias, reconhecimento de vínculo, assédio moral e indenizações."
+},
+{
+  icon: Users,
+  title: "Atuação para Sindicatos e Entidades",
+  desc: "Assessoria jurídica contínua, ações coletivas, pareceres, negociações e defesa judicial."
+},
+{
+  icon: Building2,
+  title: "Assessoria Jurídica para Empresas",
+  desc: "Suporte jurídico preventivo, estratégico e contínuo, auxiliando na tomada de decisões e redução de riscos."
+}];
+
 
 const PracticeAreas = () => {
   return (
@@ -44,12 +44,12 @@ const PracticeAreas = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
-        >
+          className="text-center mb-16">
+          
           <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
             Áreas de Atuação
           </span>
-          <h2 className="font-serif text-3xl md:text-4xl xl:text-5xl font-semibold text-primary-foreground mb-4">
+          <h2 className="text-3xl md:text-4xl xl:text-5xl font-semibold text-primary-foreground mb-4 font-sans">
             Expertise jurídica completa
           </h2>
           <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
@@ -60,34 +60,34 @@ const PracticeAreas = () => {
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
-          {areas.map((area, i) => (
-            <motion.div
-              key={area.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.08 }}
-              className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10"
-            >
+          {areas.map((area, i) =>
+          <motion.div
+            key={area.title}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: i * 0.08 }}
+            className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10">
+            
               <area.icon className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
-              <h4 className="font-serif text-xl font-semibold mb-3 leading-snug text-primary-foreground">
+              <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
                 {area.title}
               </h4>
-              <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60">
+              <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">
                 {area.desc}
               </p>
-              {area.details && (
-                <ul className="space-y-1.5">
-                  {area.details.map((detail) => (
-                    <li key={detail} className="font-sans text-xs flex items-center gap-2 text-primary-foreground/70">
+              {area.details &&
+            <ul className="space-y-1.5">
+                  {area.details.map((detail) =>
+              <li key={detail} className="font-sans text-xs flex items-center gap-2 text-primary-foreground/70">
                       <ArrowRight className="w-3 h-3 text-accent" />
                       {detail}
                     </li>
-                  ))}
-                </ul>
               )}
+                </ul>
+            }
             </motion.div>
-          ))}
+          )}
         </div>
 
         {/* CTA */}
@@ -96,21 +96,21 @@ const PracticeAreas = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-center mt-14"
-        >
+          className="text-center mt-14">
+          
           <a
             href="https://tr.ee/1iQg5G43oE"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-10 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
-          >
+            className="inline-flex items-center gap-2 px-10 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300">
+            
             <MessageCircle className="w-4 h-4" />
             Fale com um Especialista
           </a>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default PracticeAreas;
