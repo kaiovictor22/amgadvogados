@@ -3,7 +3,7 @@ import teamHands from "@/assets/team-hands.jpg";
 
 const About = () => {
   return (
-    <section id="sobre" className="py-24 md:py-32 bg-background">
+    <section id="sobre" className="py-24 md:py-32 bg-background text-primary">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image */}
