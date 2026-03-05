@@ -18,7 +18,8 @@ const NationalPresence = () => {
             <img
               src={brazilMap}
               alt="Mapa do Brasil"
-              className="w-full max-w-md mx-auto mix-blend-lighten" />
+              className="w-full max-w-md mx-auto" />
+            
           </motion.div>
 
           {/* Text */}
