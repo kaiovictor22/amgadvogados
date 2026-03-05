@@ -57,6 +57,60 @@ Deno.serve(async (req) => {
       });
     }
 
+    // Send email via Resend
+    const resendApiKey = Deno.env.get("RESEND_API_KEY");
+    if (resendApiKey) {
+      try {
+        const emailResponse = await fetch("https://api.resend.com/emails", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${resendApiKey}`,
+          },
+          body: JSON.stringify({
+            from: "AMG Advogados <onboarding@resend.dev>",
+            to: ["juridico@escritorioamg.adv.br"],
+            subject: `Novo contato pelo site - ${name.trim()}`,
+            html: `
+              <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
+                <h2 style="color: #1a1a2e; border-bottom: 2px solid #c9a959; padding-bottom: 10px;">
+                  Novo Contato pelo Site
+                </h2>
+                <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+                  <tr>
+                    <td style="padding: 10px; font-weight: bold; color: #555; width: 120px;">Nome:</td>
+                    <td style="padding: 10px; color: #333;">${name.trim()}</td>
+                  </tr>
+                  <tr style="background-color: #f9f9f9;">
+                    <td style="padding: 10px; font-weight: bold; color: #555;">Telefone:</td>
+                    <td style="padding: 10px; color: #333;">${phone.trim()}</td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 10px; font-weight: bold; color: #555;">E-mail:</td>
+                    <td style="padding: 10px; color: #333;">${email.trim()}</td>
+                  </tr>
+                  <tr style="background-color: #f9f9f9;">
+                    <td style="padding: 10px; font-weight: bold; color: #555; vertical-align: top;">Mensagem:</td>
+                    <td style="padding: 10px; color: #333;">${message.trim()}</td>
+                  </tr>
+                </table>
+                <p style="margin-top: 20px; font-size: 12px; color: #999;">
+                  Enviado automaticamente pelo site AMG Advogados
+                </p>
+              </div>
+            `,
+          }),
+        });
+
+        if (!emailResponse.ok) {
+          const errBody = await emailResponse.text();
+          console.error("Resend error:", errBody);
+        }
+      } catch (emailErr) {
+        console.error("Email send error:", emailErr);
+      }
+    }
+
     return new Response(JSON.stringify({ success: true }), {
       status: 200,
       headers: { ...corsHeaders, "Content-Type": "application/json" },
