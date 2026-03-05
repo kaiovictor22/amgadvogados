@@ -9,6 +9,11 @@ const areas = [
   details: ["BPC/LOAS", "Aposentadorias", "Auxílio-doença", "Pensão por morte", "Revisão de benefícios"]
 },
 {
+  icon: Users,
+  title: "Atuação para Sindicatos e Entidades",
+  desc: "Assessoria jurídica contínua, ações coletivas, pareceres, negociações e defesa judicial."
+},
+{
   icon: Scale,
   title: "Contencioso Cível e Responsabilidade Civil",
   desc: "Ações indenizatórias, conflitos contratuais, cobranças, defesas judiciais e litígios estratégicos."
@@ -22,11 +27,6 @@ const areas = [
   icon: Gavel,
   title: "Direito Trabalhista",
   desc: "Reclamações trabalhistas, acordos, verbas rescisórias, reconhecimento de vínculo, assédio moral e indenizações."
-},
-{
-  icon: Users,
-  title: "Atuação para Sindicatos e Entidades",
-  desc: "Assessoria jurídica contínua, ações coletivas, pareceres, negociações e defesa judicial."
 },
 {
   icon: Building2,

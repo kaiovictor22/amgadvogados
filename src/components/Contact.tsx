@@ -27,7 +27,7 @@ const Contact = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto mb-12">
           <motion.a
-            href="https://tr.ee/1iQg5G43oE"
+            href="https://wa.me/5567996596456"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}

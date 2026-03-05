@@ -6,6 +6,8 @@ import PracticeAreas from "@/components/PracticeAreas";
 import Team from "@/components/Team";
 import OfficeGallery from "@/components/OfficeGallery";
 import Contact from "@/components/Contact";
+import ContactForm from "@/components/ContactForm";
+import NationalPresence from "@/components/NationalPresence";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -14,10 +16,12 @@ const Index = () => {
       <Header />
       <Hero />
       <About />
-      <Rights />
       <PracticeAreas />
+      <Rights />
       <Team />
       <OfficeGallery />
+      <NationalPresence />
+      <ContactForm />
       <Contact />
       <Footer />
     </div>
