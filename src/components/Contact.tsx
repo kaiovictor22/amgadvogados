@@ -37,8 +37,8 @@ const Contact = () => {
             className="bg-card p-6 text-center group hover:shadow-lg border border-border rounded-lg transition-all duration-500">
 
             <Phone className="w-6 h-6 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
-            <p className="font-serif text-base text-foreground mb-1">Telefone / WhatsApp</p>
-            <p className="font-sans text-sm text-muted-foreground">(67) 99659-6456</p>
+            <p className="text-base text-foreground mb-1 font-sans font-medium">Telefone / WhatsApp</p>
+            <p className="font-sans text-sm text-muted-foreground font-semibold">(67) 99659-6456</p>
           </motion.a>
 
           <motion.a
@@ -50,7 +50,7 @@ const Contact = () => {
             className="bg-card p-6 text-center group hover:shadow-lg border border-border rounded-lg transition-all duration-500 py-[24px] px-[2px]">
 
             <Mail className="w-6 h-6 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
-            <p className="font-serif text-base text-foreground mb-1">E-mail</p>
+            <p className="text-base text-foreground mb-1 font-sans font-semibold">E-mail</p>
             <p className="text-muted-foreground font-sans font-semibold text-sm text-center">juridico@escritorioamg.adv.br</p>
           </motion.a>
 
@@ -62,8 +62,8 @@ const Contact = () => {
             className="bg-card p-6 text-center border border-border rounded-lg">
 
             <MapPin className="w-6 h-6 text-accent mx-auto mb-4" />
-            <p className="font-serif text-base text-foreground mb-1">Endereço</p>
-            <p className="font-sans text-sm text-muted-foreground leading-relaxed">
+            <p className="text-base text-foreground mb-1 font-sans font-semibold">Endereço</p>
+            <p className="font-sans text-sm text-muted-foreground leading-relaxed font-semibold">
               R. Pedro Celestino, 3607<br />
               Edifício Classic Office – Sala 903<br />
               Centro, Campo Grande – MS
@@ -78,8 +78,8 @@ const Contact = () => {
             className="bg-card p-6 text-center border border-border rounded-lg">
 
             <Clock className="w-6 h-6 text-accent mx-auto mb-4" />
-            <p className="font-serif text-base text-foreground mb-1">Horário</p>
-            <p className="font-sans text-sm text-muted-foreground leading-relaxed">
+            <p className="text-base text-foreground mb-1 font-sans font-semibold">Horário</p>
+            <p className="font-sans text-sm text-muted-foreground leading-relaxed font-semibold">
               Segunda a Sexta<br />
               08h às 18h
             </p>

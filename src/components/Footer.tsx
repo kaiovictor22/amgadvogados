@@ -23,7 +23,7 @@ const Footer = () => {
 
           {/* Navigation */}
           <div>
-            <h4 className="font-serif text-base font-semibold mb-4">Navegação</h4>
+            <h4 className="text-base font-semibold mb-4 font-sans">Navegação</h4>
             <nav className="flex flex-col gap-2">
               {[
               { label: "O Escritório", href: "#sobre" },
@@ -46,7 +46,7 @@ const Footer = () => {
 
           {/* Contact info */}
           <div>
-            <h4 className="font-serif text-base font-semibold mb-4">Contato</h4>
+            <h4 className="text-base font-semibold mb-4 font-sans">Contato</h4>
             <div className="space-y-3">
               <a href="tel:+5567965946456" className="flex items-center gap-2 text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
                 <Phone className="w-4 h-4 text-accent" />
@@ -65,7 +65,7 @@ const Footer = () => {
 
           {/* CTA */}
           <div>
-            <h4 className="font-serif text-base font-semibold mb-4">Atendimento</h4>
+            <h4 className="text-base font-semibold mb-4 font-sans">Atendimento</h4>
             <p className="font-sans text-sm text-primary-foreground/60 mb-4">
               Segunda a Sexta, 08h às 18h
             </p>
