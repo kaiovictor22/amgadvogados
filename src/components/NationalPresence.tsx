@@ -13,19 +13,19 @@ const NationalPresence = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative flex items-center justify-center"
-          >
+            className="relative flex items-center justify-center">
+            
             <img
               src={brazilMap}
               alt="Mapa do Brasil"
-              className="w-full max-w-md mx-auto"
-            />
+              className="w-full max-w-md mx-auto" />
+            
             <div className="absolute inset-0 flex items-center justify-center">
               <img
                 src={logo}
                 alt="AMG Advogados"
-                className="h-14 w-auto rounded shadow-lg"
-              />
+                className="h-14 w-auto rounded shadow-lg" />
+              
             </div>
           </motion.div>
 
@@ -34,9 +34,9 @@ const NationalPresence = () => {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-3xl md:text-4xl xl:text-5xl font-serif font-bold text-primary-foreground mb-6 uppercase tracking-wide">
+            transition={{ duration: 0.8 }}>
+            
+            <h2 className="text-3xl md:text-4xl xl:text-5xl text-primary-foreground mb-6 uppercase tracking-wide font-sans font-semibold">
               Presença Nacional
             </h2>
             <div className="w-16 h-[3px] bg-accent mb-8" />
@@ -56,8 +56,8 @@ const NationalPresence = () => {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default NationalPresence;
