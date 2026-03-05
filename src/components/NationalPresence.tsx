@@ -16,10 +16,17 @@ const NationalPresence = () => {
             className="relative flex items-center justify-center">
             
             <img
-              src={brazilMap}
+
               alt="Mapa do Brasil"
-              className="w-full max-w-md mx-auto" />
+              className="w-full max-w-md mx-auto" src="/lovable-uploads/8e03b34e-9850-41dc-8e8b-5bc79fcf2910.jpg" />
             
+            <div className="absolute inset-0 flex items-center justify-center">
+              <img
+                src={logo}
+                alt="AMG Advogados"
+                className="h-14 w-auto rounded shadow-lg" />
+              
+            </div>
           </motion.div>
 
           {/* Text */}
