@@ -16,9 +16,9 @@ const NationalPresence = () => {
             className="relative flex items-center justify-center">
             
             <img
-              src={brazilMap}
+
               alt="Mapa do Brasil"
-              className="w-full max-w-md mx-auto" />
+              className="w-full max-w-md mx-auto" src="/lovable-uploads/379e74ee-84d0-48f4-9608-3fdd67167063.png" />
             
           </motion.div>
 
