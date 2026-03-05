@@ -64,7 +64,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="https://tr.ee/1iQg5G43oE"
+          href="https://wa.me/5567996596456"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden lg:inline-flex items-center gap-2 px-6 py-2.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300">
@@ -102,7 +102,7 @@ const Header = () => {
                 </a>
             )}
               <a
-              href="https://tr.ee/1iQg5G43oE"
+              href="https://wa.me/5567996596456"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
