@@ -54,11 +54,8 @@ const Header = () => {
           {navItems.map((item) =>
           <a
             key={item.href}
-            href={item.href} className="font-sans text-base rounded-md border-0 text-left font-semibold bg-popover text-sidebar-primary">
-
-
-
-
+            href={item.href}
+            className={`font-sans text-sm font-semibold tracking-wide transition-colors duration-300 ${scrolled ? 'text-foreground hover:text-accent' : 'text-primary-foreground/90 hover:text-accent'}`}>
 
             
               {item.label}
@@ -91,7 +88,7 @@ const Header = () => {
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: "auto" }}
           exit={{ opacity: 0, height: 0 }}
-          className="lg:hidden bg-card/98 backdrop-blur-xl border-t border-border">
+          className="lg:hidden bg-card border-t border-border">
           
             <nav className="container mx-auto px-6 py-8 flex flex-col gap-1">
               {navItems.map((item) =>
@@ -99,7 +96,7 @@ const Header = () => {
               key={item.href}
               href={item.href}
               onClick={() => setIsOpen(false)}
-              className="text-sm font-sans tracking-wide text-foreground/70 hover:text-primary transition-colors py-3 border-b border-border/50">
+              className="text-sm font-sans tracking-wide text-foreground hover:text-accent transition-colors py-3 border-b border-border/50">
               
                   {item.label}
                 </a>

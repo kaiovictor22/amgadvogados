@@ -48,9 +48,9 @@ const Footer = () => {
           <div>
             <h4 className="text-base font-semibold mb-4 font-sans">Contato</h4>
             <div className="space-y-3">
-              <a href="tel:+5567965946456" className="flex items-center gap-2 text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
+              <a href="https://wa.me/5567996596456" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
                 <Phone className="w-4 h-4 text-accent" />
-                (67) 9659-6456
+                (67) 99659-6456
               </a>
               <a href="mailto:juridico@escritorioamg.adv.br" className="flex items-center gap-2 text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
                 <Mail className="w-4 h-4 text-accent" />
