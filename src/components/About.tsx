@@ -56,7 +56,7 @@ const About = () => {
 
             <div className="mt-10 flex gap-12">
               <div>
-                <p className="font-serif text-4xl text-primary font-bold">5+</p>
+                <p className="font-serif text-4xl text-primary font-bold">​+5</p>
                 <p className="text-xs font-sans tracking-widest uppercase text-muted-foreground mt-1">
                   Áreas de Atuação
                 </p>
