@@ -6,7 +6,7 @@ const team = [
   name: "Dr. Arashiro",
   role: "Advogado",
   specialty: "Direito Previdenciário e Cível",
-  description: "Pós-graduado em Processo Civil e MBA em Direito Tributário, Compliance e Auditoria Digital.\n\n\n Atua em demandas\n previdenciárias administrativas e judiciais, com experiência em benefícios do INSS e BPC/LOAS.",
+  description: "Pós-graduado em Processo Civil e MBA em Direito Tributário, Compliance e Auditoria Digital.\n\n\n Atua em demandas previdenciárias administrativas e judiciais, com experiência em benefícios do INSS e BPC/LOAS.",
   photo: "/lovable-uploads/arashiro.jpg"
 },
 {
