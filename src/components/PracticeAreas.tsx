@@ -20,7 +20,7 @@ const PracticeAreas = () => {
           </h2>
           <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
           <p className="font-sans text-primary-foreground/70 max-w-2xl mx-auto leading-relaxed">
-            Nossa equipe reúne experiência jurídica, rigor técnico e atuação estratégica para oferecer soluções seguras e personalizadas a cada cliente.
+            A atuação do escritório vai além da especialização previdenciária, oferecendo suporte jurídico completo, com atenção individualizada e estratégia sólida.
           </p>
         </motion.div>
 
