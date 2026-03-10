@@ -51,11 +51,11 @@ const Team = () => {
               <p className="font-sans text-xs text-muted-foreground mb-3 font-semibold">
                 Direito Previdenciário e Cível
               </p>
-              <p className="font-sans text-sm text-muted-foreground leading-relaxed font-semibold">
-                Pós-graduado em Processo Civil e MBA em Direito Tributário, Compliance e Auditoria Digital.
+              <p className="font-sans text-sm text-muted-foreground leading-relaxed font-semibold">Pós-graduado em Processo Civil e MBA em Direito Tributário, Compliance e Auditoria Digital.
 
 
- Atua em demandas previdenciárias administrativas e judiciais, com experiência em benefícios do INSS e BPC/LOAS.
+Atua em demandas previdenciárias administrativas e judiciais, com experiência em benefícios do INSS e BPC/LOAS.
+
               </p>
 
               <div className="flex gap-3 mt-4 pt-4 border-t border-border">
@@ -92,11 +92,11 @@ const Team = () => {
               <p className="font-sans text-xs text-muted-foreground mb-3 font-semibold">
                 Direito Cível, Sindical e Assessoria Empresarial
               </p>
-              <p className="font-sans text-sm text-muted-foreground leading-relaxed font-semibold">
-                Pós-graduado em Processo Civil e especializado em gestão de resultados e qualidade. 
+              <p className="font-sans text-sm text-muted-foreground leading-relaxed font-semibold">Pós-graduado em Processo Civil e especializado em gestão de resultados e qualidade.
 
 
- Atua em demandas com foco em soluções estratégicas e eficiência na condução dos processos.
+Atua em demandas com foco em soluções estratégicas e eficiência na condução dos processos.
+
               </p>
 
               <div className="flex gap-3 mt-4 pt-4 border-t border-border">
@@ -132,11 +132,11 @@ const Team = () => {
               <p className="font-sans text-xs text-muted-foreground mb-3 font-semibold">
                 direito civil e previdenciario 
               </p>
-              <p className="font-sans text-sm text-muted-foreground leading-relaxed font-semibold">
-                Especialista em Direito Previdenciário e contencioso cível. 
+              <p className="font-sans text-sm text-muted-foreground leading-relaxed font-semibold">Especialista em Direito Previdenciário e contencioso cível.
 
 
- Atua na assessoria jurídica e condução de demandas judiciais e consultivas com foco em soluções seguras e preventivas.
+Atua na assessoria jurídica e condução de demandas judiciais e consultivas com foco em soluções seguras e preventivas.
+
               </p>
 
               <div className="flex gap-3 mt-4 pt-4 border-t border-border">
@@ -148,8 +148,8 @@ const Team = () => {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Team;
