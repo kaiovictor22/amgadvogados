@@ -47,6 +47,14 @@ const About = () => {
               de forma estratégica em demandas previdenciárias, cíveis, trabalhistas, consumeristas e consultivas, 
               oferecendo atendimento completo para pessoas físicas, empresas, sindicatos e entidades representativas.
             </p>
+            <p className="font-sans text-muted-foreground leading-relaxed mb-5">
+              A atuação multidisciplinar permite analisar cada caso de forma ampla, buscando soluções eficazes, 
+              proteção patrimonial e segurança jurídica, com ética, transparência e acompanhamento próximo.
+            </p>
+            <p className="font-sans text-muted-foreground leading-relaxed">
+              Acreditamos na advocacia como instrumento de transformação. Caminhamos lado a lado com 
+              nossos clientes, oferecendo suporte jurídico contínuo, humano e de confiança.
+            </p>
 
             <div className="mt-10 flex gap-12">
               <div>
