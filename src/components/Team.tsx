@@ -13,7 +13,7 @@ const team = [
   name: "Dr. Morel",
   role: "Advogado",
   specialty: "Direito Cível, Sindical e Assessoria Empresarial",
-  description: "Pós-graduado em Processo Civil e especializado em gestão de resultados e qualidade.\n Atua em demandas com foco em soluções estratégicas e eficiência na condução dos processos.",
+  description: "Pós-graduado em Processo Civil e especializado em gestão de resultados e qualidade. \n\n\n Atua em demandas com foco em soluções estratégicas e eficiência na condução dos processos.",
   photo: "/lovable-uploads/morel.png",
   photoPosition: "center 30%"
 },
