@@ -21,7 +21,7 @@ const team = [
   name: "Dra. Gadêlha",
   role: "Advogada",
   specialty: "direito civil e previdenciario ",
-  description: "Especialista em Direito Previdenciário e contencioso cível.\n\n\n Atua na assessoria jurídica e condução de demandas judiciais e consultivas com foco em soluções seguras e preventivas.",
+  description: "Especialista em Direito Previdenciário e contencioso cível. \n\n\n Atua na assessoria jurídica e condução de demandas judiciais e consultivas com foco em soluções seguras e preventivas.",
   photo: "/lovable-uploads/40eb97f9-a436-48fd-a6ba-d052b29baeda.jpg"
 }];
 
