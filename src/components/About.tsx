@@ -40,14 +40,14 @@ const About = () => {
             </h2>
             <div className="divider-navy mb-8" />
 
-            <p className="font-sans text-muted-foreground leading-relaxed mb-5 border-0">Mais do que prestar serviços jurídicos, buscamos construir relações de confiança e segurança jurídica duradouras.
+            <p className="font-sans text-muted-foreground leading-relaxed mb-5 border-0">O escritório Arashiro, Morel & Gadêlha Advogados atua de forma estratégica nas áreas previdenciária, sindical, cível, trabalhista e consultiva, oferecendo assessoria jurídica qualificada para pessoas físicas, empresas, sindicatos e entidades representativas em todo o Brasil.
 
 
+Nossa atuação multidisciplinar permite analisar cada caso de forma completa, identificando soluções jurídicas seguras e eficazes para a proteção dos direitos e interesses institucionais.
 
 
-
-
-              <strong className="text-foreground font-medium">Arashiro, Morel & Gadêlha Advogados</strong> atua 
+Combinamos rigor técnico, experiência prática e atendimento humanizado, garantindo acompanhamento próximo, transparência em cada etapa e compromisso real com os resultados de nossos clientes.
+Mais do que prestar serviços jurídicos, buscamos construir relações de confiança e segurança jurídica duradouras<strong className="text-foreground font-medium">Arashiro, Morel & Gadêlha Advogados</strong> atua 
               de forma estratégica em demandas previdenciárias, cíveis, trabalhistas, consumeristas e consultivas, 
               oferecendo atendimento completo para pessoas físicas, empresas, sindicatos e entidades representativas.
             </p>
