@@ -41,8 +41,8 @@ const NationalPresence = () => {
               muito mais.
             </p>
 
-            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed">
-              Atendemos em <strong className="text-primary-foreground font-bold">todos os estados brasileiros</strong> por
+            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed">Nosso atendimento ocorre em todos os estados brasileiros, por meio de canais digitais e presenciais, com equipe especializada e acompanhamento jurídico próximo e humanizado.
+              <strong className="text-primary-foreground font-bold">todos os estados brasileiros</strong> por
               canais digitais e presenciais, com estrutura própria, equipe especializada e acompanhamento
               jurídico humanizado.
             </p>
