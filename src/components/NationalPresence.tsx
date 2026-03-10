@@ -34,9 +34,11 @@ const NationalPresence = () => {
             </h2>
             <div className="w-16 h-[3px] bg-accent mb-8" />
 
-            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed mb-6">
-              O escritório já atendeu <strong className="text-primary-foreground font-bold">mais de 600 clientes</strong> em todo o{" "}
-              <strong className="text-primary-foreground font-bold">Brasil</strong>, atuando em demandas previdenciárias, sindicais, cíveis e trabalhistas, com especial atenção a casos envolvendo pessoas com deficiência, autismo e famílias de crianças atípicas.
+            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed mb-6 font-semibold">
+              Já são <strong className="text-primary-foreground font-bold">mais de 400 famílias</strong> atendidas em todo o{" "}
+              <strong className="text-primary-foreground font-bold">Brasil</strong>, com casos de aposentadoria, revisão,
+              BPC/LOAS, pensões, auxílio-acidente, auxílio-doença, reconhecimento de tempo especial e
+              muito mais.
             </p>
 
             <p className="font-sans text-primary-foreground/80 text-base leading-relaxed">Nosso atendimento ocorre em todos os estados brasileiros, por meio de canais digitais e presenciais, com equipe especializada e acompanhamento jurídico próximo e humanizado.
