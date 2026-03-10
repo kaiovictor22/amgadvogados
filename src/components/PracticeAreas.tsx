@@ -37,7 +37,7 @@ const PracticeAreas = () => {
             <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
               BPC/LOAS
             </h4>
-            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios, demais beneficios do inss e regime de servidores publicos.
+            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios, demais beneficios do inss e regime de servidores publícos.
 
             </p>
             <ul className="space-y-1.5">
