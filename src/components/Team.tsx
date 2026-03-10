@@ -6,14 +6,14 @@ const team = [
   name: "Dr. Arashiro",
   role: "Advogado",
   specialty: "Direito Previdenciário e Cível",
-  description: "Pós-graduado em Processo Civil e MBA em Direito Tributário, Compliance e Auditoria Digital.\n\n\n Atua em demandas\n previdenciárias administrativas e judiciais, com experiência em benefícios do INSS e BPC/LOAS.",
+  description: "Pós-graduado em Processo Civil e MBA em Direito Tributário, Compliance e Auditoria Digital.\n\n\n Atua em demandas previdenciárias administrativas e judiciais, com experiência em benefícios do INSS e BPC/LOAS.",
   photo: "/lovable-uploads/arashiro.jpg"
 },
 {
   name: "Dr. Morel",
   role: "Advogado",
   specialty: "Direito Cível, Sindical e Assessoria Empresarial",
-  description: "Pós-graduado em Processo Civil e especializado em gestão de resultados e qualidade.\n Atua em demandas com foco em soluções estratégicas e eficiência na condução dos processos.",
+  description: "Pós-graduado em Processo Civil e especializado em gestão de resultados e qualidade. \n\n\n Atua em demandas com foco em soluções estratégicas e eficiência na condução dos processos.",
   photo: "/lovable-uploads/morel.png",
   photoPosition: "center 30%"
 },
@@ -21,7 +21,7 @@ const team = [
   name: "Dra. Gadêlha",
   role: "Advogada",
   specialty: "direito civil e previdenciario ",
-  description: "Especialista em Direito Previdenciário e contencioso cível.\n\n\n Atua na assessoria jurídica e condução de demandas judiciais e consultivas com foco em soluções seguras e preventivas.",
+  description: "Especialista em Direito Previdenciário e contencioso cível. \n\n\n Atua na assessoria jurídica e condução de demandas judiciais e consultivas com foco em soluções seguras e preventivas.",
   photo: "/lovable-uploads/40eb97f9-a436-48fd-a6ba-d052b29baeda.jpg"
 }];
 
