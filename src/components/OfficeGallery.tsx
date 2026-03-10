@@ -30,8 +30,7 @@ const OfficeGallery = () => {
           </h2>
           <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
           <p className="font-sans text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-
-
+            Um espaço estruturado para oferecer atendimento profissional, com conforto e a atenção necessária para compreender cada situação e apresentar as melhores soluções jurídicas.
           </p>
         </motion.div>
 

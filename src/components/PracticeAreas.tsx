@@ -4,7 +4,7 @@ import { Scale, ShieldCheck, Briefcase, Users, Building2, Gavel, MessageCircle, 
 const areas = [
 {
   icon: Briefcase,
-  title: "Direito Previdenciário",
+  title: "BPC/LOAS",
   desc: "BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios e benefícios previdenciários em geral.",
   details: ["BPC/LOAS", "Aposentadorias", "Auxílio-doença", "Pensão por morte", "Revisão de benefícios"]
 },
