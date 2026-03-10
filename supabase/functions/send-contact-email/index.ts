@@ -14,7 +14,6 @@ Deno.serve(async (req) => {
   try {
     const { name, phone, email, message } = await req.json();
 
-    // Validate inputs
     if (!name || !phone || !email || !message) {
       return new Response(JSON.stringify({ error: "Todos os campos são obrigatórios" }), {
         status: 400,
@@ -57,21 +56,21 @@ Deno.serve(async (req) => {
       });
     }
 
-    // Send email via Resend
-    const resendApiKey = Deno.env.get("RESEND_API_KEY");
-    if (resendApiKey) {
+    // Send email via Brevo
+    const brevoApiKey = Deno.env.get("BREVO_API_KEY");
+    if (brevoApiKey) {
       try {
-        const emailResponse = await fetch("https://api.resend.com/emails", {
+        const emailResponse = await fetch("https://api.brevo.com/v3/smtp/email", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer ${resendApiKey}`,
+            "api-key": brevoApiKey,
           },
           body: JSON.stringify({
-            from: "AMG Advogados <onboarding@resend.dev>",
-            to: ["juridico@escritorioamg.adv.br"],
+            sender: { name: "AMG Advogados - Site", email: "juridico@escritorioamg.adv.br" },
+            to: [{ email: "juridico@escritorioamg.adv.br", name: "AMG Advogados" }],
             subject: `Novo contato pelo site - ${name.trim()}`,
-            html: `
+            htmlContent: `
               <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
                 <h2 style="color: #1a1a2e; border-bottom: 2px solid #c9a959; padding-bottom: 10px;">
                   Novo Contato pelo Site
@@ -104,7 +103,7 @@ Deno.serve(async (req) => {
 
         if (!emailResponse.ok) {
           const errBody = await emailResponse.text();
-          console.error("Resend error:", errBody);
+          console.error("Brevo error:", errBody);
         }
       } catch (emailErr) {
         console.error("Email send error:", emailErr);

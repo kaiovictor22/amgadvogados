@@ -34,14 +34,12 @@ const NationalPresence = () => {
             </h2>
             <div className="w-16 h-[3px] bg-accent mb-8" />
 
-            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed mb-6 font-semibold">
-              O escritório já atendeu mais de 600 clientes em todo o Brasil, atuando em demandas previdenciárias, sindicais, cíveis e trabalhistas, com especial atenção a casos envolvendo pessoas com deficiência, autismo e famílias de crianças atípicas.
+            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed mb-6">
+              O escritório já atendeu <strong className="text-primary-foreground font-bold">mais de 600 clientes em todo o Brasil</strong>, atuando em demandas previdenciárias, sindicais, cíveis e trabalhistas, com especial atenção a casos envolvendo <strong className="text-primary-foreground font-bold">pessoas com deficiência, autismo e famílias de crianças atípicas</strong>.
             </p>
 
-            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed">Nosso atendimento ocorre em todos os estados brasileiros, por meio de canais digitais e presenciais, com equipe especializada e acompanhamento jurídico próximo e humanizado.
-              <strong className="text-primary-foreground font-bold">todos os estados brasileiros</strong> por
-              canais digitais e presenciais, com estrutura própria, equipe especializada e acompanhamento
-              jurídico humanizado.
+            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed">
+              Nosso atendimento ocorre em <strong className="text-primary-foreground font-bold">todos os estados brasileiros</strong>, por meio de canais digitais e presenciais, com equipe especializada e acompanhamento jurídico próximo e humanizado.
             </p>
           </motion.div>
         </div>
