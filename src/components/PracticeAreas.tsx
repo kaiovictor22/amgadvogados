@@ -37,8 +37,8 @@ const PracticeAreas = () => {
             <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
               BPC/LOAS
             </h4>
-            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">
-              BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios e benefícios previdenciários em geral.
+            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios, demais beneficios do inss e regime de servidores publicos.
+
             </p>
             <ul className="space-y-1.5">
               <li className="font-sans text-xs flex items-center gap-2 text-primary-foreground/70">
@@ -110,8 +110,8 @@ const PracticeAreas = () => {
             <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
               Direito do Consumidor
             </h4>
-            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">
-              Demandas contra bancos, revisão contratual, cobranças indevidas, negativação indevida, práticas abusivas e superendividamento.
+            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">Demandas contra bancos, revisão contratual, cobranças indevidas, negativação indevida e práticas abusivas.
+
             </p>
           </motion.div>
 
@@ -169,8 +169,8 @@ const PracticeAreas = () => {
           </a>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default PracticeAreas;

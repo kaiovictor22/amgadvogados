@@ -36,8 +36,8 @@ const Hero = () => {
             </h1>
 
             <p className="font-sans text-base md:text-lg text-primary-foreground/70 max-w-lg mb-10 leading-relaxed">
-              Atuação estratégica e humanizada em demandas previdenciárias, cíveis, trabalhistas e
-              consultivas — protegendo seus direitos com ética, transparência e excelência.
+
+
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

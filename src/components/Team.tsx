@@ -20,8 +20,8 @@ const Team = () => {
           </h2>
           <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
           <p className="font-sans text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Nossa equipe une expertise jurídica, comprometimento e visão estratégica para 
-            oferecer a melhor solução para cada cliente.
+
+
           </p>
         </motion.div>
 
@@ -42,8 +42,8 @@ const Team = () => {
             </div>
 
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-primary mb-1 font-sans">
-                Dr. Arashiro
+              <h3 className="text-xl font-semibold text-primary mb-1 font-sans">Dr. Rafael Arashiro
+
               </h3>
               <p className="font-sans text-xs font-semibold tracking-[0.15em] uppercase text-accent mb-2">
                 Advogado
@@ -83,8 +83,8 @@ Atua em demandas previdenciárias administrativas e judiciais, com experiência 
             </div>
 
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-primary mb-1 font-sans">
-                Dr. Morel
+              <h3 className="text-xl font-semibold text-primary mb-1 font-sans">Dr. Bruno Morel
+
               </h3>
               <p className="font-sans text-xs font-semibold tracking-[0.15em] uppercase text-accent mb-2">
                 Advogado
@@ -123,8 +123,8 @@ Atua em demandas com foco em soluções estratégicas e eficiência na conduçã
             </div>
 
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-primary mb-1 font-sans">
-                Dra. Gadêlha
+              <h3 className="text-xl font-semibold text-primary mb-1 font-sans">Dra. Thais Gadêlha
+
               </h3>
               <p className="font-sans text-xs font-semibold tracking-[0.15em] uppercase text-accent mb-2">
                 Advogada
