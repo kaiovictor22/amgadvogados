@@ -40,8 +40,10 @@ const About = () => {
             </h2>
             <div className="divider-navy mb-8" />
 
-            <p className="font-sans text-muted-foreground leading-relaxed mb-5">
-              O <strong className="text-foreground font-medium">Arashiro, Morel & Gadêlha Advogados</strong> atua 
+            <p className="font-sans text-muted-foreground leading-relaxed mb-5 border-0">Nossa atuação multidisciplinar permite analisar cada caso de forma completa, identificando soluções jurídicas seguras e eficazes para a proteção dos direitos e interesses institucionais.
+
+
+              <strong className="text-foreground font-medium">Arashiro, Morel & Gadêlha Advogados</strong> atua 
               de forma estratégica em demandas previdenciárias, cíveis, trabalhistas, consumeristas e consultivas, 
               oferecendo atendimento completo para pessoas físicas, empresas, sindicatos e entidades representativas.
             </p>
@@ -71,8 +73,6 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-    </section>);
-
-};
+    </section>);};
 
 export default About;
