@@ -30,8 +30,7 @@ const Rights = () => {
             </h2>
             <div className="divider-navy mb-6" />
             <p className="font-sans text-muted-foreground leading-relaxed mb-8">
-
-
+              Muitas pessoas desconhecem os direitos que possuem perante a Previdência Social. Conheça informações essenciais sobre benefícios previdenciários e planejamento de aposentadoria de forma clara e acessível.
             </p>
             <a
               href="https://wa.me/5567996596456"
