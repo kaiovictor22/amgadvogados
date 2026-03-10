@@ -50,12 +50,11 @@ const PracticeAreas = () => {
             Áreas de Atuação
           </span>
           <h2 className="text-3xl md:text-4xl xl:text-5xl font-semibold text-primary-foreground mb-4 font-sans">
-
+            Soluções juridicas completas
           </h2>
           <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
           <p className="font-sans text-primary-foreground/70 max-w-2xl mx-auto leading-relaxed">
-
-
+            Nossa equipe reúne experiência jurídica, rigor técnico e atuação estratégica para oferecer soluções seguras e personalizadas a cada cliente.
           </p>
         </motion.div>
 
