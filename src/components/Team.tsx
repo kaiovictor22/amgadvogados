@@ -12,8 +12,8 @@ const team = [
 {
   name: "Dr. Morel",
   role: "Advogado",
-  specialty: "Direito Trabalhista e Consumerista",
-  description: "Atuação estratégica em demandas trabalhistas e consumeristas, com foco na defesa dos direitos do cidadão.",
+  specialty: "Direito Cível, Sindical e Assessoria Empresarial",
+  description: "Pós-graduado em Processo Civil e especializado em gestão de resultados e qualidade.\n Atua em demandas com foco em soluções estratégicas e eficiência na condução dos processos.",
   photo: "/lovable-uploads/morel.png",
   photoPosition: "center 30%"
 },
