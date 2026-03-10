@@ -128,8 +128,8 @@ Atua em demandas com foco em soluções estratégicas e eficiência na conduçã
               <p className="font-sans text-xs font-semibold tracking-[0.15em] uppercase text-accent mb-2">
                 Advogada
               </p>
-              <p className="font-sans text-xs text-muted-foreground mb-3 font-semibold">
-                direito civil e previdenciario 
+              <p className="font-sans text-xs text-muted-foreground mb-3 font-semibold">Direito civil e previdenciario
+
               </p>
               <p className="font-sans text-sm text-muted-foreground leading-relaxed font-semibold">Especialista em Direito Previdenciário e contencioso cível.
 
