@@ -1,40 +1,6 @@
 import { motion } from "framer-motion";
 import { Scale, ShieldCheck, Briefcase, Users, Building2, Gavel, MessageCircle, ArrowRight } from "lucide-react";
 
-const areas = [
-{
-  icon: Briefcase,
-  title: "BPC/LOAS",
-  desc: "BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios e benefícios previdenciários em geral.",
-  details: ["BPC/LOAS", "Aposentadorias", "Auxílio-doença", "Pensão por morte", "Revisão de benefícios"]
-},
-{
-  icon: Users,
-  title: "Atuação para Sindicatos e Entidades",
-  desc: "Assessoria jurídica contínua, ações coletivas, pareceres, negociações e defesa judicial."
-},
-{
-  icon: Scale,
-  title: "Contencioso Cível e Responsabilidade Civil",
-  desc: "Ações indenizatórias, conflitos contratuais, cobranças, defesas judiciais e litígios estratégicos."
-},
-{
-  icon: ShieldCheck,
-  title: "Direito do Consumidor",
-  desc: "Demandas contra bancos, revisão contratual, cobranças indevidas, negativação indevida, práticas abusivas e superendividamento."
-},
-{
-  icon: Gavel,
-  title: "Direito Trabalhista",
-  desc: "Reclamações trabalhistas, acordos, verbas rescisórias, reconhecimento de vínculo, assédio moral e indenizações."
-},
-{
-  icon: Building2,
-  title: "Assessoria Jurídica para Empresas",
-  desc: "Suporte jurídico preventivo, estratégico e contínuo, auxiliando na tomada de decisões e redução de riscos."
-}];
-
-
 const PracticeAreas = () => {
   return (
     <section id="areas" className="py-24 md:py-32 bg-primary">
@@ -59,34 +25,129 @@ const PracticeAreas = () => {
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
-          {areas.map((area, i) =>
+          {/* BPC/LOAS */}
           <motion.div
-            key={area.title}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: i * 0.08 }}
+            transition={{ duration: 0.5, delay: 0 }}
             className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10">
             
-              <area.icon className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
-              <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
-                {area.title}
-              </h4>
-              <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">
-                {area.desc}
-              </p>
-              {area.details &&
+            <Briefcase className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
+            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+              BPC/LOAS
+            </h4>
+            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">
+              BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios e benefícios previdenciários em geral.
+            </p>
             <ul className="space-y-1.5">
-                  {area.details.map((detail) =>
-              <li key={detail} className="font-sans text-xs flex items-center gap-2 text-primary-foreground/70">
-                      <ArrowRight className="w-3 h-3 text-accent" />
-                      {detail}
-                    </li>
-              )}
-                </ul>
-            }
-            </motion.div>
-          )}
+              <li className="font-sans text-xs flex items-center gap-2 text-primary-foreground/70">
+                <ArrowRight className="w-3 h-3 text-accent" />
+                BPC/LOAS
+              </li>
+              <li className="font-sans text-xs flex items-center gap-2 text-primary-foreground/70">
+                <ArrowRight className="w-3 h-3 text-accent" />
+                Aposentadorias
+              </li>
+              <li className="font-sans text-xs flex items-center gap-2 text-primary-foreground/70">
+                <ArrowRight className="w-3 h-3 text-accent" />
+                Auxílio-doença
+              </li>
+              <li className="font-sans text-xs flex items-center gap-2 text-primary-foreground/70">
+                <ArrowRight className="w-3 h-3 text-accent" />
+                Pensão por morte
+              </li>
+              <li className="font-sans text-xs flex items-center gap-2 text-primary-foreground/70">
+                <ArrowRight className="w-3 h-3 text-accent" />
+                Revisão de benefícios
+              </li>
+            </ul>
+          </motion.div>
+
+          {/* Sindicatos */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.08 }}
+            className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10">
+            
+            <Users className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
+            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+              Atuação para Sindicatos e Entidades
+            </h4>
+            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">
+              Assessoria jurídica contínua, ações coletivas, pareceres, negociações e defesa judicial.
+            </p>
+          </motion.div>
+
+          {/* Contencioso Cível */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.16 }}
+            className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10">
+            
+            <Scale className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
+            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+              Contencioso Cível e Responsabilidade Civil
+            </h4>
+            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">
+              Ações indenizatórias, conflitos contratuais, cobranças, defesas judiciais e litígios estratégicos.
+            </p>
+          </motion.div>
+
+          {/* Direito do Consumidor */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.24 }}
+            className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10">
+            
+            <ShieldCheck className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
+            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+              Direito do Consumidor
+            </h4>
+            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">
+              Demandas contra bancos, revisão contratual, cobranças indevidas, negativação indevida, práticas abusivas e superendividamento.
+            </p>
+          </motion.div>
+
+          {/* Direito Trabalhista */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.32 }}
+            className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10">
+            
+            <Gavel className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
+            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+              Direito Trabalhista
+            </h4>
+            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">
+              Reclamações trabalhistas, acordos, verbas rescisórias, reconhecimento de vínculo, assédio moral e indenizações.
+            </p>
+          </motion.div>
+
+          {/* Assessoria Empresarial */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10">
+            
+            <Building2 className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
+            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+              Assessoria Jurídica para Empresas
+            </h4>
+            <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">
+              Suporte jurídico preventivo, estratégico e contínuo, auxiliando na tomada de decisões e redução de riscos.
+            </p>
+          </motion.div>
         </div>
 
         {/* CTA */}
@@ -108,8 +169,8 @@ const PracticeAreas = () => {
           </a>
         </motion.div>
       </div>
-    </section>);
-
+    </section>
+  );
 };
 
 export default PracticeAreas;
