@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="sobre" className="py-24 md:py-32 bg-background text-primary">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -18,7 +18,7 @@ const About = () => {
               <img
                 src={teamHands}
                 alt="Parceria e compromisso — AMG Advogados"
-                className="w-full h-[400px] object-cover object-center" />
+                className="w-full h-[280px] sm:h-[350px] md:h-[400px] object-cover object-center" />
               
             </div>
             {/* Decorative accent */}
@@ -32,10 +32,10 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}>
             
-            <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
+            <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block text-center lg:text-left">
               O Escritório
             </span>
-            <h2 className="text-3xl md:text-4xl xl:text-5xl font-semibold text-primary mb-6 leading-tight font-sans">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold text-primary mb-6 leading-tight font-sans text-center lg:text-left">
               Compromisso com seus direitos
             </h2>
             <div className="divider-navy mb-8" />
@@ -53,14 +53,14 @@ const About = () => {
               Mais do que prestar serviços jurídicos, buscamos construir <strong className="text-primary font-bold">relações de confiança e segurança jurídica duradouras.</strong>
             </p>
 
-            <div className="mt-10 flex gap-12">
-              <div>
+            <div className="mt-10 flex gap-12 justify-center lg:justify-start">
+              <div className="text-center lg:text-left">
                 <p className="font-serif text-4xl text-primary font-bold">​+5</p>
                 <p className="text-xs font-sans tracking-widest uppercase text-muted-foreground mt-1">
                   Áreas de Atuação
                 </p>
               </div>
-              <div>
+              <div className="text-center lg:text-left">
                 <p className="font-serif text-4xl text-primary font-bold">100%</p>
                 <p className="text-xs font-sans tracking-widest uppercase text-muted-foreground mt-1">
                   Dedicação

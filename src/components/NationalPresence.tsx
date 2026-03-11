@@ -29,16 +29,16 @@ const NationalPresence = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}>
             
-            <h2 className="text-3xl md:text-4xl xl:text-5xl text-primary-foreground mb-6 uppercase tracking-wide font-sans font-semibold">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl text-primary-foreground mb-6 uppercase tracking-wide font-sans font-semibold text-center lg:text-left">
               Presença Nacional
             </h2>
-            <div className="w-16 h-[3px] bg-accent mb-8" />
+            <div className="w-16 h-[3px] bg-accent mb-8 mx-auto lg:mx-0" />
 
-            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed mb-6">
+            <p className="font-sans text-primary-foreground/80 text-sm sm:text-base leading-relaxed mb-6 text-center lg:text-left">
               O escritório já atendeu <strong className="text-primary-foreground font-bold">mais de 600 clientes em todo o Brasil</strong>, atuando em demandas previdenciárias, sindicais, cíveis e trabalhistas, com especial atenção a casos envolvendo <strong className="text-primary-foreground font-bold">pessoas com deficiência, autismo e famílias de crianças atípicas</strong>.
             </p>
 
-            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed">
+            <p className="font-sans text-primary-foreground/80 text-sm sm:text-base leading-relaxed text-center lg:text-left">
               Nosso atendimento ocorre em <strong className="text-primary-foreground font-bold">todos os estados brasileiros</strong>, por meio de canais digitais e presenciais, com equipe especializada e acompanhamento jurídico próximo e humanizado.
             </p>
           </motion.div>

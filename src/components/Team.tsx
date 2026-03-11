@@ -15,7 +15,7 @@ const Team = () => {
           <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
             Nossa Equipe
           </span>
-          <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-4 font-sans xl:text-4xl">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-primary mb-4 font-sans xl:text-4xl">
             Profissionais dedicados ao seu caso
           </h2>
           <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
@@ -24,7 +24,7 @@ const Team = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {/* Dr. Arashiro */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
