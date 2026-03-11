@@ -53,14 +53,14 @@ const About = () => {
               Mais do que prestar serviços jurídicos, buscamos construir <strong className="text-primary font-bold">relações de confiança e segurança jurídica duradouras.</strong>
             </p>
 
-            <div className="mt-10 flex gap-12">
-              <div>
+            <div className="mt-10 flex gap-12 justify-center lg:justify-start">
+              <div className="text-center lg:text-left">
                 <p className="font-serif text-4xl text-primary font-bold">​+5</p>
                 <p className="text-xs font-sans tracking-widest uppercase text-muted-foreground mt-1">
                   Áreas de Atuação
                 </p>
               </div>
-              <div>
+              <div className="text-center lg:text-left">
                 <p className="font-serif text-4xl text-primary font-bold">100%</p>
                 <p className="text-xs font-sans tracking-widest uppercase text-muted-foreground mt-1">
                   Dedicação

@@ -5,23 +5,23 @@ const Rights = () => {
   return (
     <section id="direitos" className="py-24 md:py-32 bg-secondary">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-start max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start max-w-5xl mx-auto">
           {/* Left — Title */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="lg:sticky lg:top-32">
+            className="lg:sticky lg:top-32 text-center lg:text-left">
             
             <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
               Direito Previdenciário
             </span>
-            <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-6 leading-tight font-sans xl:text-4xl">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-primary mb-6 leading-tight font-sans xl:text-4xl">
               Conheça seus direitos previdenciários
             </h2>
-            <div className="divider-navy mb-6" />
-            <p className="font-sans text-muted-foreground leading-relaxed mb-8">
+            <div className="divider-navy mb-6 mx-auto lg:mx-0" />
+            <p className="font-sans text-muted-foreground leading-relaxed mb-8 text-sm sm:text-base">
               Muitas pessoas desconhecem os direitos que possuem perante a Previdência Social. Conheça informações essenciais sobre benefícios previdenciários e planejamento de aposentadoria de forma clara e acessível.
             </p>
             <a

@@ -38,7 +38,7 @@ const NationalPresence = () => {
               O escritório já atendeu <strong className="text-primary-foreground font-bold">mais de 600 clientes em todo o Brasil</strong>, atuando em demandas previdenciárias, sindicais, cíveis e trabalhistas, com especial atenção a casos envolvendo <strong className="text-primary-foreground font-bold">pessoas com deficiência, autismo e famílias de crianças atípicas</strong>.
             </p>
 
-            <p className="font-sans text-primary-foreground/80 text-base leading-relaxed">
+            <p className="font-sans text-primary-foreground/80 text-sm sm:text-base leading-relaxed text-center lg:text-left">
               Nosso atendimento ocorre em <strong className="text-primary-foreground font-bold">todos os estados brasileiros</strong>, por meio de canais digitais e presenciais, com equipe especializada e acompanhamento jurídico próximo e humanizado.
             </p>
           </motion.div>

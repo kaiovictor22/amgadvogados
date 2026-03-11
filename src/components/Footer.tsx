@@ -78,7 +78,7 @@ const Footer = () => {
               <MessageCircle className="w-3.5 h-3.5" />
               Fale Conosco
             </a>
-            <div className="flex gap-3 mt-4">
+            <div className="flex gap-3 mt-4 justify-center sm:justify-start">
               <a
                 href="https://wa.me/5567996596456"
                 target="_blank"

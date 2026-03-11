@@ -17,29 +17,29 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 container mx-auto px-6">
-        <div className="max-w-2xl py-32 lg:py-40">
+        <div className="max-w-2xl py-32 lg:py-40 text-center md:text-left mx-auto md:mx-0">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}>
             
-            <div className="w-16 h-[3px] bg-accent mb-8" />
+            <div className="w-16 h-[3px] bg-accent mb-8 mx-auto md:mx-0" />
 
-            <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold leading-[1.1] text-primary-foreground mb-6 font-sans">
+            <h1 className="text-3xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold leading-[1.1] text-primary-foreground mb-6 font-sans">
               Arashiro, Morel
               <br />
               <span className="text-accent">& Gadêlha</span>
               <br />
-              <span className="text-3xl sm:text-4xl md:text-5xl font-light text-primary-foreground/80">
+              <span className="text-2xl sm:text-4xl md:text-5xl font-light text-primary-foreground/80">
                 Advogados
               </span>
             </h1>
 
-            <p className="font-sans text-base md:text-lg text-primary-foreground/70 max-w-lg mb-10 leading-relaxed">
+            <p className="font-sans text-sm sm:text-base md:text-lg text-primary-foreground/70 max-w-lg mb-10 leading-relaxed mx-auto md:mx-0">
               Atuação estratégica e humanizada em demandas previdenciárias, sindicais, cíveis, trabalhistas e consultivas — protegendo seus direitos com ética, transparência e excelência.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 items-center md:items-start">
               <a
                 href="https://wa.me/5567996596456"
                 target="_blank"
