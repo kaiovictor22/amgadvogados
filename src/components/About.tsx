@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="sobre" className="py-24 md:py-32 bg-background text-primary">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -18,7 +18,7 @@ const About = () => {
               <img
                 src={teamHands}
                 alt="Parceria e compromisso — AMG Advogados"
-                className="w-full h-[400px] object-cover object-center" />
+                className="w-full h-[280px] sm:h-[350px] md:h-[400px] object-cover object-center" />
               
             </div>
             {/* Decorative accent */}
