@@ -15,7 +15,7 @@ const Contact = () => {
           <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
             Contato
           </span>
-          <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-4 font-sans xl:text-4xl">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-primary mb-4 font-sans xl:text-4xl">
             Fale com nossa equipe
           </h2>
           <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
