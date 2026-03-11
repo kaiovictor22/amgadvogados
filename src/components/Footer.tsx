@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center sm:text-left">
           {/* Logo & description */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex items-center gap-3 mb-4 justify-center sm:justify-start">
               <img alt="AMG Advogados" className="h-10 w-auto rounded" src={logo} />
               <div className="flex flex-col leading-tight">
                 <span className="text-sm text-primary-foreground font-semibold font-sans">Arashiro, Morel</span>
