@@ -32,10 +32,10 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}>
             
-            <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
+            <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block text-center lg:text-left">
               O Escritório
             </span>
-            <h2 className="text-3xl md:text-4xl xl:text-5xl font-semibold text-primary mb-6 leading-tight font-sans">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold text-primary mb-6 leading-tight font-sans text-center lg:text-left">
               Compromisso com seus direitos
             </h2>
             <div className="divider-navy mb-8" />
