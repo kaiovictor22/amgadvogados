@@ -15,7 +15,7 @@ const PracticeAreas = () => {
           <span className="text-[11px] font-sans font-semibold tracking-[0.3em] uppercase text-accent mb-4 block">
             Áreas de Atuação
           </span>
-          <h2 className="text-3xl md:text-4xl xl:text-5xl font-semibold text-primary-foreground mb-4 font-sans">Soluções juridícas completas
+          <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold text-primary-foreground mb-4 font-sans">Soluções juridícas completas
 
           </h2>
           <div className="w-16 h-[3px] bg-accent mx-auto mb-6" />
