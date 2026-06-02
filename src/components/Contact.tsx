@@ -1,9 +1,19 @@
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, MessageCircle, Instagram, Clock, ExternalLink, Star } from "lucide-react";
 
-const Contact = () => {
+interface ContactProps {
+  background?: "background" | "secondary" | "primary";
+}
+
+const Contact = ({ background = "background" }: ContactProps) => {
+  const bgClass = {
+    background: "bg-background",
+    secondary: "bg-secondary",
+    primary: "bg-primary",
+  }[background];
+
   return (
-    <section id="contato" className="py-24 md:py-32 bg-background">
+    <section id="contato" className={`py-24 md:py-32 ${bgClass}`}>
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
