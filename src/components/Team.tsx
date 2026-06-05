@@ -31,7 +31,7 @@ const Team = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0 }}
-            className="bg-card rounded-lg border border-border overflow-hidden group hover:shadow-xl transition-all duration-500">
+            className="bg-card rounded-lg border border-border overflow-hidden group hover:shadow-xl transition-all duration-500 flex flex-col h-full">
             
             <div className="h-80 bg-primary/5 overflow-hidden">
               <img
@@ -40,7 +40,7 @@ const Team = () => {
                 className="w-full h-full object-[center_25%] scale-110 group-hover:scale-115 transition-transform duration-500 opacity-100 border-0 border-none rounded-xl object-cover" />
             </div>
 
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-1">
               <h3 className="text-xl font-semibold text-primary mb-1 font-sans">Dr. Rafael Arashiro
 
               </h3>
@@ -57,9 +57,10 @@ Atua em demandas previdenciárias administrativas e judiciais, com experiência 
 
               </p>
 
-              <div className="flex gap-3 mt-4 pt-4 border-t border-border">
-                <a href="https://wa.me/5567996596456" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors" aria-label="WhatsApp">
-                  <MessageCircle className="w-4 h-4" />
+              <div className="mt-auto pt-6">
+                <a href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/3b6f20e5-ed95-4544-be63-650e7695dba8" target="_blank" rel="noopener noreferrer" className="w-full inline-flex justify-center items-center gap-2 px-6 py-3.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300">
+                  <MessageCircle className="w-3.5 h-3.5" />
+                  Entrar em contato
                 </a>
               </div>
             </div>
@@ -71,7 +72,7 @@ Atua em demandas previdenciárias administrativas e judiciais, com experiência 
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="bg-card rounded-lg border border-border overflow-hidden group hover:shadow-xl transition-all duration-500">
+            className="bg-card rounded-lg border border-border overflow-hidden group hover:shadow-xl transition-all duration-500 flex flex-col h-full">
             
             <div className="h-80 bg-primary/5 overflow-hidden">
               <img
@@ -81,7 +82,7 @@ Atua em demandas previdenciárias administrativas e judiciais, com experiência 
                 className="w-full h-full object-[center_25%] scale-110 group-hover:scale-115 transition-transform duration-500 opacity-100 border-0 border-none rounded-xl object-cover" />
             </div>
 
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-1">
               <h3 className="text-xl font-semibold text-primary mb-1 font-sans">Dr. Bruno Morel
 
               </h3>
@@ -98,9 +99,10 @@ Atua em demandas com foco em soluções estratégicas e eficiência na conduçã
 
               </p>
 
-              <div className="flex gap-3 mt-4 pt-4 border-t border-border">
-                <a href="https://wa.me/5567996596456" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors" aria-label="WhatsApp">
-                  <MessageCircle className="w-4 h-4" />
+              <div className="mt-auto pt-6">
+                <a href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/08e188e0-55ec-4422-a455-e6f73265feba" target="_blank" rel="noopener noreferrer" className="w-full inline-flex justify-center items-center gap-2 px-6 py-3.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300">
+                  <MessageCircle className="w-3.5 h-3.5" />
+                  Entrar em contato
                 </a>
               </div>
             </div>
@@ -112,7 +114,7 @@ Atua em demandas com foco em soluções estratégicas e eficiência na conduçã
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-card rounded-lg border border-border overflow-hidden group hover:shadow-xl transition-all duration-500">
+            className="bg-card rounded-lg border border-border overflow-hidden group hover:shadow-xl transition-all duration-500 flex flex-col h-full">
             
             <div className="h-80 bg-primary/5 overflow-hidden">
               <img
@@ -121,7 +123,7 @@ Atua em demandas com foco em soluções estratégicas e eficiência na conduçã
                 className="w-full h-full object-[center_25%] scale-110 group-hover:scale-115 transition-transform duration-500 opacity-100 border-0 border-none rounded-xl object-cover" />
             </div>
 
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-1">
               <h3 className="text-xl font-semibold text-primary mb-1 font-sans">Dra. Thais Gadêlha
 
               </h3>
@@ -138,9 +140,10 @@ Atua na assessoria jurídica e condução de demandas judiciais e consultivas co
 
               </p>
 
-              <div className="flex gap-3 mt-4 pt-4 border-t border-border">
-                <a href="https://wa.me/5567996596456" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors" aria-label="WhatsApp">
-                  <MessageCircle className="w-4 h-4" />
+              <div className="mt-auto pt-6">
+                <a href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/59624162-c8fb-4617-92e9-75fabcd5f398" target="_blank" rel="noopener noreferrer" className="w-full inline-flex justify-center items-center gap-2 px-6 py-3.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300">
+                  <MessageCircle className="w-3.5 h-3.5" />
+                  Entrar em contato
                 </a>
               </div>
             </div>

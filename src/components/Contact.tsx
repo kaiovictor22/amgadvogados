@@ -37,7 +37,7 @@ const Contact = ({ background = "background" }: ContactProps) => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto mb-12">
           <motion.a
-            href="https://wa.me/5567996596456"
+            href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/dfa0c7ec-561b-4fde-bfc6-167c281b99f6"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}

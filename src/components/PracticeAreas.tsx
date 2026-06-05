@@ -63,7 +63,7 @@ const PracticeAreas = () => {
               </li>
             </ul>
             <a
-              href="https://wa.me/5567996596456?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20BPC%2FLOAS%20e%20direito%20previdenci%C3%A1rio."
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/bfd1e02b-776b-4e81-8d68-91c4fae4a1bf"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto w-full inline-flex justify-center items-center gap-2 px-6 py-3.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
@@ -89,7 +89,7 @@ const PracticeAreas = () => {
               Assessoria jurídica contínua, ações coletivas, pareceres, negociações e defesa judicial.
             </p>
             <a
-              href="https://wa.me/5567996596456?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20atua%C3%A7%C3%A3o%20jur%C3%ADdica%20para%20Sindicatos%20e%20Entidades."
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/191c1cbf-c6fe-41ca-905c-44877d606197"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto w-full inline-flex justify-center items-center gap-2 px-6 py-3.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
@@ -115,7 +115,7 @@ const PracticeAreas = () => {
               Ações indenizatórias, conflitos contratuais, cobranças, defesas judiciais e litígios estratégicos.
             </p>
             <a
-              href="https://wa.me/5567996596456?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Contencioso%20C%C3%ADvel%20e%20Responsabilidade%20Civil."
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/6d79b2bb-9643-4182-b88a-5aac949ba42a"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto w-full inline-flex justify-center items-center gap-2 px-6 py-3.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
@@ -141,7 +141,7 @@ const PracticeAreas = () => {
 
             </p>
             <a
-              href="https://wa.me/5567996596456?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Direito%20do%20Consumidor."
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/bd6995c0-dfc2-4cf3-88a3-1cd9882dc114"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto w-full inline-flex justify-center items-center gap-2 px-6 py-3.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
@@ -167,7 +167,7 @@ const PracticeAreas = () => {
               Reclamações trabalhistas, acordos, verbas rescisórias, reconhecimento de vínculo, assédio moral e indenizações.
             </p>
             <a
-              href="https://wa.me/5567996596456?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Direito%20Trabalhista."
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/43a9af6c-ce5a-42bb-83f2-4aa1c8b541f4"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto w-full inline-flex justify-center items-center gap-2 px-6 py-3.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
@@ -193,7 +193,7 @@ const PracticeAreas = () => {
               Suporte jurídico preventivo, estratégico e contínuo, auxiliando na tomada de decisões e redução de riscos.
             </p>
             <a
-              href="https://wa.me/5567996596456?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20Assessoria%20Jur%C3%ADdica%20para%20Empresas."
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/04205d7e-5bf9-45ca-8a47-f782e45c2247"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto w-full inline-flex justify-center items-center gap-2 px-6 py-3.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
@@ -213,7 +213,7 @@ const PracticeAreas = () => {
           className="text-center mt-14">
           
           <a
-            href="https://wa.me/5567996596456"
+            href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/94be878e-a68b-441e-80a8-4d7b2d2ae7b3"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-10 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300">

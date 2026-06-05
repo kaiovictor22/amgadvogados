@@ -39,7 +39,7 @@ const LoasDenied = () => {
         </motion.div>
 
         {/* Two-column layout */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start max-w-5xl max-h-6xl mx-auto">
 
           {/* Left — image */}
           <motion.div
@@ -123,7 +123,7 @@ const LoasDenied = () => {
 
             {/* CTA primário */}
             <a
-              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/e343c5b2-58ff-442e-ba2d-5589bdf0fe04"
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/e19d35c8-1af4-424d-aadd-94c7e697ea91"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
