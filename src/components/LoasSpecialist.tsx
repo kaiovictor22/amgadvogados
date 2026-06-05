@@ -83,7 +83,7 @@ const LoasSpecialist = () => {
 
             {/* Primary CTA */}
             <a
-              href="https://wa.me/5567996596456"
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/a5d287dc-afd3-4c9f-aca3-a853555dda0d"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"

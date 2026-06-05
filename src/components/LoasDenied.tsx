@@ -123,7 +123,7 @@ const LoasDenied = () => {
 
             {/* CTA primário */}
             <a
-              href="https://wa.me/5567996596456"
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/e343c5b2-58ff-442e-ba2d-5589bdf0fe04"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 text-[12px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300"
