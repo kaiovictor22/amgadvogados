@@ -25,7 +25,7 @@ const Rights = () => {
               Muitas pessoas desconhecem os direitos que possuem perante a Previdência Social. Conheça informações essenciais sobre benefícios previdenciários e planejamento de aposentadoria de forma clara e acessível.
             </p>
             <a
-              href="https://wa.me/5567996596456"
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/79923300-7691-4d8f-b42b-6b45c835217d"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-3.5 text-[11px] font-sans font-semibold tracking-[0.15em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300">

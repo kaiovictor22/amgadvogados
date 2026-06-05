@@ -102,7 +102,7 @@ const Header = () => {
 
         {/* CTA desktop */}
         <a
-          href="https://wa.me/5567996596456"
+          href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/10be0e44-57fd-486c-b885-8c076e27b757"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden lg:inline-flex items-center gap-2 px-5 py-2.5 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all duration-300 shrink-0"

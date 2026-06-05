@@ -48,7 +48,7 @@ const Footer = () => {
           <div>
             <h4 className="text-base font-semibold mb-4 font-sans">Contato</h4>
             <div className="space-y-3">
-              <a href="https://wa.me/5567996596456" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
+              <a href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/46963410-931e-4de9-90a7-c31f01f15630" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
                 <Phone className="w-4 h-4 text-accent" />
                 (67) 99659-6456
               </a>
@@ -70,7 +70,7 @@ const Footer = () => {
               Segunda a Sexta, 08h às 18h
             </p>
             <a
-              href="https://wa.me/5567996596456"
+              href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/46963410-931e-4de9-90a7-c31f01f15630"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 text-[11px] font-sans font-semibold tracking-[0.12em] uppercase bg-accent text-accent-foreground hover:bg-accent/90 rounded transition-all w-full justify-center">
@@ -80,7 +80,7 @@ const Footer = () => {
             </a>
             <div className="flex gap-3 mt-4 justify-center sm:justify-start">
               <a
-                href="https://wa.me/5567996596456"
+                href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/46963410-931e-4de9-90a7-c31f01f15630"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-foreground/50 hover:text-accent transition-colors"
