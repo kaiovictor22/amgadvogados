@@ -96,23 +96,25 @@ const LoasFAQ = () => {
                 className="bg-card border border-border rounded-lg overflow-hidden"
               >
                 {/* Question button */}
-                <button
-                  type="button"
-                  onClick={() => toggle(index)}
-                  aria-expanded={isOpen}
-                  className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left group"
-                >
-                  <span className="font-sans text-sm sm:text-base font-semibold text-primary leading-snug">
-                    {faq.question}
-                  </span>
-                  <motion.span
-                    animate={{ rotate: isOpen ? 180 : 0 }}
-                    transition={{ duration: 0.25, ease: "easeOut" }}
-                    className="shrink-0 text-accent"
+                <h3>
+                  <button
+                    type="button"
+                    onClick={() => toggle(index)}
+                    aria-expanded={isOpen}
+                    className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left group"
                   >
-                    <ChevronDown className="w-5 h-5" />
-                  </motion.span>
-                </button>
+                    <span className="font-sans text-sm sm:text-base font-semibold text-primary leading-snug">
+                      {faq.question}
+                    </span>
+                    <motion.span
+                      animate={{ rotate: isOpen ? 180 : 0 }}
+                      transition={{ duration: 0.25, ease: "easeOut" }}
+                      className="shrink-0 text-accent"
+                    >
+                      <ChevronDown className="w-5 h-5" />
+                    </motion.span>
+                  </button>
+                </h3>
 
                 {/* Answer — animated height */}
                 <AnimatePresence initial={false}>

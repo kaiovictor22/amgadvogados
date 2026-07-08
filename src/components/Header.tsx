@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "@/assets/logo-amg.jpeg";
+import { Link } from "react-router-dom";
 
 interface NavItem {
   label: string;
@@ -42,7 +43,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
 
-        <a href="/" className="flex items-center gap-3 shrink-0">
+        <Link to="/" className="flex items-center gap-3 shrink-0">
           <img
             alt="AMG Advogados"
             className="h-11 w-auto rounded"
@@ -71,23 +72,23 @@ const Header = () => {
               Advogados
             </span>
           </div>
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <nav className="hidden lg:flex items-center gap-5">
           {navItems.map((item) =>
             item.highlight ? (
-              <a
+              <Link
                 key={item.href}
-                href={item.href}
+                to={item.href}
                 className="inline-flex items-center gap-1.5 px-3 py-1 text-[11px] font-sans font-semibold tracking-[0.1em] uppercase rounded-full border border-accent/60 text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
               >
                 {item.label}
-              </a>
+              </Link>
             ) : (
-              <a
+              <Link
                 key={item.href}
-                href={item.href}
+                to={item.href}
                 className={`font-sans text-[13px] font-semibold tracking-wide transition-colors duration-300 ${
                   scrolled
                     ? "text-foreground hover:text-accent"
@@ -95,7 +96,7 @@ const Header = () => {
                 }`}
               >
                 {item.label}
-              </a>
+              </Link>
             )
           )}
         </nav>
@@ -117,7 +118,7 @@ const Header = () => {
           className={`lg:hidden ${
             scrolled ? "text-foreground" : "text-primary-foreground"
           }`}
-          aria-label="Abrir menu"
+          aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
         >
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -134,9 +135,9 @@ const Header = () => {
           >
             <nav className="container mx-auto px-6 py-6 flex flex-col gap-1">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.href}
-                  href={item.href}
+                  to={item.href}
                   onClick={() => setIsOpen(false)}
                   className={`text-sm font-sans font-semibold tracking-wide py-3 border-b border-border/50 transition-colors ${
                     item.highlight
@@ -148,7 +149,7 @@ const Header = () => {
                     <span className="inline-block w-1.5 h-1.5 rounded-full bg-accent mr-2 mb-0.5" />
                   )}
                   {item.label}
-                </a>
+                </Link>
               ))}
 
               <a

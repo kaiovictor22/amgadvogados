@@ -119,10 +119,11 @@ const ContactForm = () => {
           />
 
           <div>
-            <label className="block text-sm font-sans font-semibold text-foreground mb-1.5">
+            <label htmlFor="form-name" className="block text-sm font-sans font-semibold text-foreground mb-1.5">
               Nome completo *
             </label>
             <input
+              id="form-name"
               type="text"
               name="name"
               value={formData.name}
@@ -134,10 +135,11 @@ const ContactForm = () => {
           </div>
 
           <div>
-            <label className="block text-sm font-sans font-semibold text-foreground mb-1.5">
+            <label htmlFor="form-phone" className="block text-sm font-sans font-semibold text-foreground mb-1.5">
               Telefone *
             </label>
             <input
+              id="form-phone"
               type="tel"
               name="phone"
               value={formData.phone}
@@ -149,10 +151,11 @@ const ContactForm = () => {
           </div>
 
           <div>
-            <label className="block text-sm font-sans font-semibold text-foreground mb-1.5">
+            <label htmlFor="form-email" className="block text-sm font-sans font-semibold text-foreground mb-1.5">
               E-mail *
             </label>
             <input
+              id="form-email"
               type="email"
               name="email"
               value={formData.email}
@@ -164,10 +167,11 @@ const ContactForm = () => {
           </div>
 
           <div>
-            <label className="block text-sm font-sans font-semibold text-foreground mb-1.5">
+            <label htmlFor="form-message" className="block text-sm font-sans font-semibold text-foreground mb-1.5">
               Mensagem *
             </label>
             <textarea
+              id="form-message"
               name="message"
               value={formData.message}
               onChange={handleChange}

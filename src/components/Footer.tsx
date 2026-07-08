@@ -1,5 +1,6 @@
 import { Instagram, MessageCircle, MapPin, Phone, Mail } from "lucide-react";
 import logo from "@/assets/logo-amg.jpeg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -23,30 +24,30 @@ const Footer = () => {
 
           {/* Navigation */}
           <div>
-            <h4 className="text-base font-semibold mb-4 font-sans">Navegação</h4>
+            <p className="text-base font-semibold mb-4 font-sans">Navegação</p>
             <nav className="flex flex-col gap-2">
               {[
-              { label: "O Escritório", href: "#sobre" },
-              { label: "Previdenciário", href: "#direitos" },
-              { label: "Áreas de Atuação", href: "#areas" },
-              { label: "Nossa Equipe", href: "#equipe" },
-              { label: "Estrutura", href: "#estrutura" },
-              { label: "Contato", href: "#contato" }].
+              { label: "O Escritório", href: "/#sobre" },
+              { label: "Previdenciário", href: "/#direitos" },
+              { label: "Áreas de Atuação", href: "/#areas" },
+              { label: "Nossa Equipe", href: "/#equipe" },
+              { label: "Estrutura", href: "/#estrutura" },
+              { label: "Contato", href: "/#contato" }].
               map((link) =>
-              <a
+              <Link
                 key={link.label}
-                href={link.href}
+                to={link.href}
                 className="text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
                 
                   {link.label}
-                </a>
+                </Link>
               )}
             </nav>
           </div>
 
           {/* Contact info */}
           <div>
-            <h4 className="text-base font-semibold mb-4 font-sans">Contato</h4>
+            <p className="text-base font-semibold mb-4 font-sans">Contato</p>
             <div className="space-y-3">
               <a href="https://tintim.link/whatsapp/ebfc7f2a-ec8b-4de0-a91c-90d16aed25a3/46963410-931e-4de9-90a7-c31f01f15630" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-sans text-primary-foreground/60 hover:text-accent transition-colors">
                 <Phone className="w-4 h-4 text-accent" />
@@ -65,7 +66,7 @@ const Footer = () => {
 
           {/* CTA */}
           <div>
-            <h4 className="text-base font-semibold mb-4 font-sans">Atendimento</h4>
+            <p className="text-base font-semibold mb-4 font-sans">Atendimento</p>
             <p className="font-sans text-sm text-primary-foreground/60 mb-4">
               Segunda a Sexta, 08h às 18h
             </p>

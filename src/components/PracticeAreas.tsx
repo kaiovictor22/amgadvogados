@@ -26,7 +26,7 @@ const PracticeAreas = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
           {/* BPC/LOAS */}
-          <motion.div
+          <motion.article
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -34,9 +34,9 @@ const PracticeAreas = () => {
             className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10 flex flex-col h-full">
             
             <Briefcase className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
-            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+            <h3 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
               BPC/LOAS
-            </h4>
+            </h3>
             <p className="font-sans text-sm leading-relaxed mb-4 text-primary-foreground/60 font-semibold">BPC/LOAS, aposentadorias, auxílio-doença, pensão por morte, revisão de benefícios, demais beneficios do inss e regime de servidores publícos.
 
             </p>
@@ -71,10 +71,10 @@ const PracticeAreas = () => {
               <MessageCircle className="w-3.5 h-3.5" />
               Analisar meu Caso
             </a>
-          </motion.div>
+          </motion.article>
 
           {/* Sindicatos */}
-          <motion.div
+          <motion.article
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -82,9 +82,9 @@ const PracticeAreas = () => {
             className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10 flex flex-col h-full">
             
             <Users className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
-            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+            <h3 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
               Atuação para Sindicatos e Entidades
-            </h4>
+            </h3>
             <p className="font-sans text-sm leading-relaxed mb-8 text-primary-foreground/60 font-semibold">
               Assessoria jurídica contínua, ações coletivas, pareceres, negociações e defesa judicial.
             </p>
@@ -97,10 +97,10 @@ const PracticeAreas = () => {
               <MessageCircle className="w-3.5 h-3.5" />
               Analisar meu Caso
             </a>
-          </motion.div>
+          </motion.article>
 
           {/* Contencioso Cível */}
-          <motion.div
+          <motion.article
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -108,9 +108,9 @@ const PracticeAreas = () => {
             className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10 flex flex-col h-full">
             
             <Scale className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
-            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+            <h3 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
               Contencioso Cível e Responsabilidade Civil
-            </h4>
+            </h3>
             <p className="font-sans text-sm leading-relaxed mb-8 text-primary-foreground/60 font-semibold">
               Ações indenizatórias, conflitos contratuais, cobranças, defesas judiciais e litígios estratégicos.
             </p>
@@ -123,10 +123,10 @@ const PracticeAreas = () => {
               <MessageCircle className="w-3.5 h-3.5" />
               Analisar meu Caso
             </a>
-          </motion.div>
+          </motion.article>
 
           {/* Direito do Consumidor */}
-          <motion.div
+          <motion.article
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -134,9 +134,9 @@ const PracticeAreas = () => {
             className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10 flex flex-col h-full">
             
             <ShieldCheck className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
-            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+            <h3 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
               Direito do Consumidor
-            </h4>
+            </h3>
             <p className="font-sans text-sm leading-relaxed mb-8 text-primary-foreground/60 font-semibold">Demandas contra bancos, revisão contratual, cobranças indevidas, negativação indevida e práticas abusivas.
 
             </p>
@@ -149,10 +149,10 @@ const PracticeAreas = () => {
               <MessageCircle className="w-3.5 h-3.5" />
               Analisar meu Caso
             </a>
-          </motion.div>
+          </motion.article>
 
           {/* Direito Trabalhista */}
-          <motion.div
+          <motion.article
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -160,9 +160,9 @@ const PracticeAreas = () => {
             className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10 flex flex-col h-full">
             
             <Gavel className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
-            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+            <h3 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
               Direito Trabalhista
-            </h4>
+            </h3>
             <p className="font-sans text-sm leading-relaxed mb-8 text-primary-foreground/60 font-semibold">
               Reclamações trabalhistas, acordos, verbas rescisórias, reconhecimento de vínculo, assédio moral e indenizações.
             </p>
@@ -175,10 +175,10 @@ const PracticeAreas = () => {
               <MessageCircle className="w-3.5 h-3.5" />
               Analisar meu Caso
             </a>
-          </motion.div>
+          </motion.article>
 
           {/* Assessoria Empresarial */}
-          <motion.div
+          <motion.article
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -186,9 +186,9 @@ const PracticeAreas = () => {
             className="p-7 rounded-lg group transition-all duration-500 bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10 flex flex-col h-full">
             
             <Building2 className="w-7 h-7 mb-5 group-hover:scale-110 transition-transform duration-300 text-accent" />
-            <h4 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
+            <h3 className="text-xl font-semibold mb-3 leading-snug text-primary-foreground font-sans">
               Assessoria Jurídica para Empresas
-            </h4>
+            </h3>
             <p className="font-sans text-sm leading-relaxed mb-8 text-primary-foreground/60 font-semibold">
               Suporte jurídico preventivo, estratégico e contínuo, auxiliando na tomada de decisões e redução de riscos.
             </p>
@@ -201,7 +201,7 @@ const PracticeAreas = () => {
               <MessageCircle className="w-3.5 h-3.5" />
               Analisar meu Caso
             </a>
-          </motion.div>
+          </motion.article>
         </div>
 
         {/* CTA */}

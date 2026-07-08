@@ -26,7 +26,7 @@ const Team = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {/* Dr. Arashiro */}
-          <motion.div
+          <motion.article
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -36,7 +36,8 @@ const Team = () => {
             <div className="h-80 bg-primary/5 overflow-hidden">
               <img
                 src="/lovable-uploads/arashiro.jpg"
-                alt="Dr. Arashiro"
+                alt="Dr. Rafael Arashiro — Advogado especialista em Direito Previdenciário e Cível na AMG Advogados"
+                loading="lazy"
                 className="w-full h-full object-[center_25%] scale-110 group-hover:scale-115 transition-transform duration-500 opacity-100 border-0 border-none rounded-xl object-cover" />
             </div>
 
@@ -64,10 +65,10 @@ Atua em demandas previdenciárias administrativas e judiciais, com experiência 
                 </a>
               </div>
             </div>
-          </motion.div>
+          </motion.article>
 
           {/* Dr. Morel */}
-          <motion.div
+          <motion.article
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -77,7 +78,8 @@ Atua em demandas previdenciárias administrativas e judiciais, com experiência 
             <div className="h-80 bg-primary/5 overflow-hidden">
               <img
                 src="/lovable-uploads/morel.png"
-                alt="Dr. Morel"
+                alt="Dr. Bruno Morel — Advogado especialista em Direito Cível, Sindical e Assessoria Empresarial na AMG Advogados"
+                loading="lazy"
                 style={{ objectPosition: "center 30%" }}
                 className="w-full h-full object-[center_25%] scale-110 group-hover:scale-115 transition-transform duration-500 opacity-100 border-0 border-none rounded-xl object-cover" />
             </div>
@@ -106,10 +108,10 @@ Atua em demandas com foco em soluções estratégicas e eficiência na conduçã
                 </a>
               </div>
             </div>
-          </motion.div>
+          </motion.article>
 
           {/* Dra. Gadêlha */}
-          <motion.div
+          <motion.article
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -119,7 +121,8 @@ Atua em demandas com foco em soluções estratégicas e eficiência na conduçã
             <div className="h-80 bg-primary/5 overflow-hidden">
               <img
                 src="/lovable-uploads/40eb97f9-a436-48fd-a6ba-d052b29baeda.jpg"
-                alt="Dra. Gadêlha"
+                alt="Dra. Thais Gadêlha — Advogada especialista em Direito Civil e Previdenciário na AMG Advogados"
+                loading="lazy"
                 className="w-full h-full object-[center_25%] scale-110 group-hover:scale-115 transition-transform duration-500 opacity-100 border-0 border-none rounded-xl object-cover" />
             </div>
 
@@ -147,7 +150,7 @@ Atua na assessoria jurídica e condução de demandas judiciais e consultivas co
                 </a>
               </div>
             </div>
-          </motion.div>
+          </motion.article>
         </div>
       </div>
     </section>);

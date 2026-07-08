@@ -18,6 +18,7 @@ const About = () => {
               <img
                 src={teamHands}
                 alt="Parceria e compromisso — AMG Advogados"
+                loading="lazy"
                 className="w-full h-[280px] sm:h-[350px] md:h-[400px] object-cover object-center" />
               
             </div>
@@ -55,7 +56,7 @@ const About = () => {
 
             <div className="mt-10 flex gap-12 justify-center lg:justify-start">
               <div className="text-center lg:text-left">
-                <p className="font-serif text-4xl text-primary font-bold">​+5</p>
+                <p className="font-serif text-4xl text-primary font-bold">+5</p>
                 <p className="text-xs font-sans tracking-widest uppercase text-muted-foreground mt-1">
                   Áreas de Atuação
                 </p>

@@ -4,7 +4,7 @@ import logo from "@/assets/logo-amg.jpeg";
 
 const NationalPresence = () => {
   return (
-    <section className="py-24 md:py-32 bg-[hsl(215_60%_14%)]">
+    <section id="presenca-nacional" aria-label="Presença Nacional" className="py-24 md:py-32 bg-[hsl(215_60%_14%)]">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Map */}
@@ -16,8 +16,8 @@ const NationalPresence = () => {
             className="relative flex items-center justify-center">
             
             <img
-
-              alt="Mapa do Brasil"
+              alt="Mapa do Brasil destacando a cobertura de atendimento nacional do escritório AMG Advogados"
+              loading="lazy"
               className="w-full max-w-md mx-auto" src="/lovable-uploads/379e74ee-84d0-48f4-9608-3fdd67167063.png" />
             
           </motion.div>

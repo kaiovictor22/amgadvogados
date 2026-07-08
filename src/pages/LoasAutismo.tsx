@@ -11,8 +11,9 @@ import OfficeGallery from '@/components/OfficeGallery';
 import Contact from '@/components/Contact';
 const LoasAutismo = () => {
   useSEO(
-    'BPC/LOAS para Autismo (TEA) | AMG Advogados — Campo Grande/MS',
-    'O INSS negou o BPC/LOAS do seu filho com Autismo (TEA)? Nosso advogado especialista reverte seu caso e garante 1 salário mínimo.'
+    'Advogado Especialista em BPC/LOAS para Autismo (TEA) | Atendimento Nacional',
+    'O INSS negou o BPC/LOAS do seu filho com Autismo (TEA)? Nosso advogado especialista reverte o caso. Atendimento online em todo o Brasil.',
+    'https://www.advogadosamg.com.br/bpc-loas-autismo'
   );
 
   return (
